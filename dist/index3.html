@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Show More with Tailwind CSS</title>
+  <link href="https://cdn.tailwindcss.com/2.2.19/tailwind.min.css" rel="stylesheet" />
+  <style>
+    .truncate-lines {
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body class="p-6">
+  <div class="max-w-md mx-auto">
+    <p id="paragraph" class="truncate-lines">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quos enim repellat impedit rem deleniti cupiditate accusantium aliquid quam a, natus quisquam perspiciatis itaque nulla similique fuga pariatur neque facilis recusandae fugiat porro! Vel fugiat dolore magni suscipit, ad quo quis eius quod doloribus ipsa optio necessitatibus error, excepturi quas. Ab illo ad dolore rem est sequi totam natus. Minima nemo nihil voluptatem impedit. Odio labore perferendis quos eum, magnam nostrum ex dolore delectus, hic sequi perspiciatis earum voluptas pariatur aperiam laborum soluta qui tempora ullam necessitatibus minima non omnis architecto obcaecati vero! Quo magni laborum, asperiores quod quis facere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et eros arcu. Donec ut tristique justo. Proin facilisis sem ut erat gravida, ac semper turpis finibus. Nullam convallis mauris vel eros ultrices, nec eleifend elit efficitur. Suspendisse auctor tellus sed mauris auctor placerat.
+    </p>
+    <button id="moreBtn" class="text-blue-500 underline mt-2">More</button>
+  </div>
+
+  <script>
+    const paragraph = document.getElementById("paragraph");
+    const moreBtn = document.getElementById("moreBtn");
+
+    moreBtn.addEventListener("click", function () {
+      if (paragraph.classList.contains("truncate-lines")) {
+        paragraph.classList.remove("truncate-lines");
+        moreBtn.textContent = "Less";
+      } else {
+        paragraph.classList.add("truncate-lines");
+        moreBtn.textContent = "More";
+      }
+    });
+  </script>
+</body>
+</html>

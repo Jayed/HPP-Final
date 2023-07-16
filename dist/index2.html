@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popup Window</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <div class="flex justify-center items-center h-screen">
+        <button
+          class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+          onclick="toggleModal()"
+        >
+          Toggle Modal
+        </button>
+      </div>
+
+      <div
+        class="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 transition-opacity duration-300 ease-out hidden"
+        id="modal"
+      >
+        <div class="bg-white rounded p-4 w-64">
+          <h2 class="text-xl font-bold mb-2">Modal Title</h2>
+          <p>This is the content of the modal.</p>
+        </div>
+      </div>
+
+      <script>
+        function toggleModal() {
+          var modal = document.getElementById("modal");
+          modal.classList.toggle("hidden");
+        }
+      </script>
+    </div>
+  </body>
+</html>
