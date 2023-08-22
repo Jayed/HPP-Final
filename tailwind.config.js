@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./dist/**/*.{html,js}"],
+  content: ["./html/**/*.html", "./js/**/*.js"],
   theme: {
     extend: {
       spacing: {
@@ -15,5 +15,5 @@ module.exports = {
       // },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
