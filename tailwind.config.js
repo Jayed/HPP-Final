@@ -10,6 +10,9 @@ module.exports = {
         "6%": "6%",
         "12%": "12%",
       },
+      // animation: {
+      //   "spin-slow": "spin 10s linear infinite",
+      // },
     },
   },
   plugins: [],

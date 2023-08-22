@@ -12,10 +12,10 @@
     <!-- Adding font starts  -->
     <link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet" />
     <!-- Font Awesome cdn -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
+    <script
+      src="https://kit.fontawesome.com/aa8c0c7da5.js"
+      crossorigin="anonymous"
+    ></script>
 
     <style>
       body {
@@ -27,56 +27,76 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
       }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        15% {
+          transform: rotate(-15deg);
+        }
+      }
+      "spin-slow":"spin10slinearinfinite", ;
     </style>
 
     <title>HPP</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="overflow-x-hidden bg-zinc-200">
+  <body class="overflow-x-hidden bg-purple-200 m-0 p-0">
+    <h1 class="text-3xl">Git testing heading</h1>
     <!-- Whole section  -->
-    <section class="mx-1% md:mx-6% lg:mx-12%">
+    <section class="mx-auto max-w-7xl">
       <!-- Header section starts here -->
-      <header class="bg-white fixed top-0 z-10 w-full shadow-lg right-0 left-0">
-        <nav
-          class="relative flex justify-between items-center w-[75%] mx-auto bg-white"
-        >
-          <div class="">
-            <img
-              class="w-72 h-24 py-1 cursor-pointer"
-              src="../images/her-power-logo.jpg"
-              alt="..."
-            />
+      <header
+        class="bg-purple-200 fixed top-0 z-10 w-full shadow-lg right-0 left-0 text-white"
+      >
+        <nav class="relative flex justify-between items-center w-[75%] mx-auto">
+          <div class="flex justify-center items-center">
+            <div class="logo-div">
+              <img
+                class="w-36 h-20 py-1 cursor-pointer animate-spin-slow"
+                src="../images/logo-only.png"
+                alt="..."
+              />
+            </div>
+            <div class="flex flex-col ml-5">
+              <h1 class="text-2xl font-extrabold text-purple-900">
+                হার পাওয়ার প্রকল্প
+              </h1>
+              <p class="font-bold text-purple-900">
+                প্রযুক্তির সহায়তায় নারীর ক্ষমতায়ন
+              </p>
+            </div>
           </div>
           <div
-            class="bg-white nav-links duration-700 sm:static absolute sm:z-auto sm:min-h-fit min-h-[60vh] right-0 top-[-100%] sm::w-auto opacity-0 sm:opacity-100"
+            class="nav-links duration-700 sm:static absolute sm:z-auto sm:min-h-fit min-h-[60vh] right-0 top-[-100%] sm::w-auto opacity-0 sm:opacity-100"
           >
             <ul
               class="md:text-xl md:font-extrabold text-sm font-bold flex sm:flex-row flex-col sm:items-center gap-y-10"
             >
               <li>
                 <a
-                  class="px-3 py-1 hover:text-white hover:bg-green-300 border-slate-200 border-l-2 text-center"
+                  class="px-3 py-1 hover:text-white hover:bg-green-300 border-slate-200 border-l-2 text-center text-purple-900"
                   href="#"
                   >HOME</a
                 >
               </li>
               <li>
                 <a
-                  class="px-3 py-1 hover:text-white hover:bg-green-300 border-slate-200 border-l-2 text-center"
+                  class="px-3 py-1 hover:text-white hover:bg-green-300 border-slate-200 border-l-2 text-center text-purple-900"
                   href="#courses"
                   >COURSES</a
                 >
               </li>
               <li>
                 <a
-                  class="px-3 py-1 hover:text-white hover:bg-green-300 border-slate-200 border-l-2 text-center"
+                  class="px-3 py-1 hover:text-white hover:bg-green-300 border-slate-200 border-l-2 text-center text-purple-900"
                   href="#her-power"
                   >ABOUT</a
                 >
               </li>
               <li>
                 <a
-                  class="px-3 py-1 hover:text-white hover:bg-green-300 text-center border-l-2"
+                  class="px-3 py-1 hover:text-white hover:bg-green-300 text-center border-l-2 text-purple-900"
                   href="#contact"
                   >CONTACT</a
                 >
@@ -95,70 +115,70 @@
           </div>
         </nav>
       </header>
-      <!-- Header section end here -->
-
       <!-- default slider starts here -->
-      <section>
+      <section class="default-slider mb-20">
         <div
           id="default-carousel"
-          class="relative top-28"
+          class="relative top-28 border-2 border-red-400"
           data-carousel="slide"
         >
           <!-- Carousel wrapper -->
-          <div class="h-[85vh] w-full overflow-hidden rounded-lg">
+          <div
+            class="overflow-hidden rounded-lg border-2 border-red-400 flex justify-center"
+          >
             <!-- Item 1 -->
             <div
-              class="hidden duration-700 ease-in-out w-full h-full"
+              class="hidden duration-700 ease-in-out h-[512px] w-[1024px]"
               data-carousel-item
             >
               <img
                 src="../images/call center canva.png"
-                class="w-full h-full"
+                class="h-full w-full object-fill"
                 alt="..."
               />
             </div>
             <!-- Item 2 -->
             <div
-              class="hidden duration-700 ease-in-out w-full h-full"
+              class="hidden duration-700 ease-in-out h-[512px] w-[1024px]"
               data-carousel-item
             >
               <img
                 src="../images/call-center.jpg"
-                class="w-full h-full"
+                class="h-full w-full object-fill"
                 alt="..."
               />
             </div>
             <!-- Item 3 -->
             <div
-              class="hidden duration-700 ease-in-out w-full h-full"
+              class="hidden duration-700 ease-in-out h-[512px] w-[1024px]"
               data-carousel-item
             >
               <img
-                src="../images/it-service.jpg"
-                class="w-full h-full"
+                src="../images/digital-marketing.webp"
+                class="h-full w-full object-fill"
                 alt="..."
               />
             </div>
             <!-- Item 4 -->
             <div
-              class="hidden duration-700 ease-in-out w-full h-full"
+              class="hidden duration-700 ease-in-out h-[512px] w-[1024px]"
               data-carousel-item
             >
               <img
                 src="../images/freelancer.jpg"
-                class="w-full h-full"
+                class="h-full w-full object-fill"
                 alt="..."
               />
             </div>
             <!-- Slider indicators -->
             <!-- Item 5 -->
             <div
-              class="hidden duration-700 ease-in-out w-full h-full"
+              class="hidden duration-700 ease-in-out h-[512px] w-[1024px]"
               data-carousel-item
             >
               <img
                 src="../images/e-commerce.jpg"
-                class="w-full h-full"
+                class="h-full w-full object-fill"
                 alt="..."
               />
             </div>
@@ -252,10 +272,11 @@
         </div>
       </section>
       <!-- default slider ends here -->
+      <!-- Header section end here -->
 
       <!-- Main contents (left+right) section starts -->
       <section id="main-content" class="relative top-8 scroll-mt-24">
-        <div class="flex flex-col lg:flex-row bg-zinc-100">
+        <div class="flex flex-col lg:flex-row bg-purple-200">
           <!-- Left side starts -->
           <div class="w-full gap-6 px-7 pt-8 lg:w-10/12">
             <!-- card section starts  -->
@@ -304,7 +325,9 @@
                         class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300 hover:text-blue-700"
                         onclick="toggleModal2()"
                       >
-                        প্রকল্প এলাকায় অন্তর্ভুক্তি
+                        প্রকল্প এলাকায় অন্তর্ভুক্তি<span
+                          ><i class="text-lg ml-1 fa-solid fa-caret-down"></i
+                        ></span>
                       </button>
                       <!-- <div
                       class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300"
@@ -365,7 +388,9 @@
                         class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300 hover:text-blue-700"
                         onclick="toggleModal2()"
                       >
-                        প্রকল্প এলাকায় অন্তর্ভুক্তি
+                        প্রকল্প এলাকায় অন্তর্ভুক্তি<span
+                          ><i class="text-lg ml-1 fa-solid fa-caret-down"></i
+                        ></span>
                       </button>
                     </div>
                     <div class="flex items-center justify-center space-y-2">
@@ -419,7 +444,9 @@
                         class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300 hover:text-blue-700"
                         onclick="toggleModal3()"
                       >
-                        প্রকল্প এলাকায় অন্তর্ভুক্তি
+                        প্রকল্প এলাকায় অন্তর্ভুক্তি<span
+                          ><i class="text-lg ml-1 fa-solid fa-caret-down"></i
+                        ></span>
                       </button>
                     </div>
                     <div class="flex items-center justify-center space-y-2">
@@ -474,7 +501,9 @@
                         class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300 hover:text-blue-700"
                         onclick="toggleModal3()"
                       >
-                        প্রকল্প এলাকায় অন্তর্ভুক্তি
+                        প্রকল্প এলাকায় অন্তর্ভুক্তি<span
+                          ><i class="text-lg ml-1 fa-solid fa-caret-down"></i
+                        ></span>
                       </button>
                     </div>
                     <div class="flex items-center justify-center space-y-2">
@@ -530,7 +559,9 @@
                         class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300 hover:text-blue-700"
                         onclick="toggleModal3()"
                       >
-                        প্রকল্প এলাকায় অন্তর্ভুক্তি
+                        প্রকল্প এলাকায় অন্তর্ভুক্তি<span
+                          ><i class="text-lg ml-1 fa-solid fa-caret-down"></i
+                        ></span>
                       </button>
                     </div>
                     <div class="flex items-center justify-center space-y-2">
@@ -586,7 +617,9 @@
                         class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300 hover:text-blue-700"
                         onclick="toggleModal3()"
                       >
-                        প্রকল্প এলাকায় অন্তর্ভুক্তি
+                        প্রকল্প এলাকায় অন্তর্ভুক্তি<span
+                          ><i class="text-lg ml-1 fa-solid fa-caret-down"></i
+                        ></span>
                       </button>
                     </div>
                     <div class="flex items-center justify-center space-y-2">
