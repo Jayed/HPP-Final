@@ -1,0 +1,37 @@
+ন্যূনতম <br />এস.এস.সি. <br />পাশ
+বয়স <br />১৮-৪০ <br />বছর
+কোর্সটির <br />
+                      আওতাভুক্ত <br />
+                      এলাকা<span
+                        >
+
+
+
+
+
+
+
+
+------------------------------------------------------
+--carousel-hpp  -- হার পাওয়ার প্রকল্প  -- -------------------
+carousel-call-center - ওমেন কল সেন্টার এজেন্ট  ------ call-center
+carousel-ecommerce -- ওমেন ই-কমার্স প্রোফেসনাল  ----- e-commerce
+carousel-it-service - ওমেন আইটি সার্ভিস প্রোভাইডার  - it-service
+carousel-graphic -- গ্রাফিক্স ডিজাইন ----------------------- graphic-design
+carousel-web - ওয়েব ডেভেলপমেন্ট  ---------------------------- web-design
+carousel-digital-- ডিজিটাল মার্কেটিং  ---------------------- digital-marketing
+---------------------------------------------------------------------------
+carousel-call-center - ওমেন কল সেন্টার এজেন্ট  -- https://freelancer.gov.bd/#/training-details/7
+carousel-ecommerce -- ওমেন ই-কমার্স প্রোফেসনাল  --  https://freelancer.gov.bd/#/training-details/8
+carousel-it-service - ওমেন আইটি সার্ভিস প্রোভাইডার  --- https://freelancer.gov.bd/#/training-details/6
+carousel-graphic -- গ্রাফিক্স ডিজাইন  -  https://freelancer.gov.bd/#/training-details/4
+carousel-web - ওয়েব ডেভেলপমেন্ট  --  https://freelancer.gov.bd/#/training-details/5
+carousel-digital-- ডিজিটাল মার্কেটিং  ---   https://freelancer.gov.bd/#/training-details/3
+---------------------------------------------------------------------------
+--carousel-hpp  -- হার পাওয়ার প্রকল্প  -- -----------------
+carousel-call-center - ওমেন কল সেন্টার এজেন্ট  ------
+carousel-ecommerce -- ওমেন ই-কমার্স প্রোফেসনাল  -----
+carousel-it-service - ওমেন আইটি সার্ভিস প্রোভাইডার  -
+carousel-graphic -- গ্রাফিক্স ডিজাইন ----------------------- 
+carousel-web - ওয়েব ডেভেলপমেন্ট  ----------------------------
+carousel-digital-- ডিজিটাল মার্কেটিং  ---------------------

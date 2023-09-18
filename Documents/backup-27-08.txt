@@ -1,0 +1,2453 @@
+<!-- Main contents (left+right) section starts -->
+      <section
+        id="main-content"
+        class="relative top-8 scroll-mt-24 max-w-screen-lg mx-auto px-4 md:px-8 lg:px-16"
+      >
+        <div class="bg-purple-200">
+          <!-- Left side starts -->
+          <div class="w-full gap-6 px-7 pt-8">
+            <!-- card section starts  -->
+            <div
+              class="bg-cyan-50 rounded-b-xl hover:ring-1 hover:ring-cyan-700"
+            >
+              <h1
+                class="bg-cyan-700 text-center text-3xl font-extrabold py-3 text-white"
+              >
+                এক নজরে আমাদের কোর্সসমূহ
+              </h1>
+              <div
+                id="courses"
+                class="shadow-lg rounded-xl scroll-mt-40 grid w-full grid-cols-1 gap-6 px-7 pb-6 pt-1 md:grid-cols-3"
+              >
+                <!-- Card-1 design starts -->
+                <div
+                  class="bg-white pb-6 rounded-b-xl hover:ring-1 hover:ring-green-400 w-full shadow-md shadow-slate-500 transform hover:scale-105 duration-500"
+                >
+                  <h1
+                    class="bg-cyan-700 tracking-wider text-center text-white font-semibold py-1 px-1"
+                  >
+                    Woman Call center Agent
+                  </h1>
+
+                  <img
+                    class="h-40 w-64 mx-auto rounded-b-xl ring-1 ring-green-400 sm:flex-shrink-0 transform hover:scale-105 duration-500"
+                    src="../images/call-center.jpg"
+                    alt="Women call center logo"
+                  />
+                  <div class="text-center space-y-4 mt-3">
+                    <div
+                      class="flex place-items-center justify-center space-x-2 px-1 text-xs"
+                    >
+                      <div
+                        class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300"
+                      >
+                        ন্যূনতম এস.এস.সি. পাশ
+                      </div>
+                      <div
+                        class="w-1/3 rounded-xl bg-white px-6 py-1 shadow-md shadow-emerald-300"
+                      >
+                        বয়স ১৮-৪০ বছর
+                      </div>
+                      <button
+                        class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300 hover:text-blue-700"
+                        onclick="toggleModal2()"
+                      >
+                        প্রকল্প এলাকায় অন্তর্ভুক্তি<span
+                          ><i class="text-lg ml-1 fa-solid fa-caret-down"></i
+                        ></span>
+                      </button>
+                      <!-- <div
+                      class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300"
+                    >
+                      প্রকল্প এলাকায় অন্তর্ভুক্তি
+                    </div> -->
+                    </div>
+                    <div class="flex items-center justify-center space-y-2">
+                      <div class="w-1/2">
+                        <button class="w-full">
+                          <a href="#call-center" class="btn">বিস্তারিত</a>
+                        </button>
+                      </div>
+                      <div class="w-1/2">
+                        <button class="w-full">
+                          <a
+                            href="https://freelancer.gov.bd/#/training-details/7"
+                            target="_blank"
+                            class="btn"
+                            >রেজিস্ট্রেশান</a
+                          >
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card-1 ends here -->
+                <!-- Card-2 design starts -->
+                <div
+                  class="pb-6 bg-white rounded-b-xl hover:ring-1 hover:ring-green-400 w-full shadow-md shadow-slate-500 transform hover:scale-105 duration-500"
+                >
+                  <h1
+                    class="bg-cyan-700 text-center text-white font-semibold py-1 px-1"
+                  >
+                    Woman E-commerce Professional
+                  </h1>
+
+                  <img
+                    class="h-40 w-64 mx-auto rounded-b-xl ring-1 ring-green-400 sm:flex-shrink-0 transform hover:scale-105 duration-500"
+                    src="../images/e-commerce.jpg"
+                    alt="Women call center logo"
+                  />
+                  <div class="text-center space-y-4 mt-3">
+                    <div
+                      class="flex place-items-center justify-center space-x-2 px-1 text-xs"
+                    >
+                      <div
+                        class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300"
+                      >
+                        ন্যূনতম এইচ.এস.সি. পাশ
+                      </div>
+                      <div
+                        class="w-1/3 rounded-xl bg-white px-6 py-1 shadow-md shadow-emerald-300"
+                      >
+                        বয়স ১৮-৪০ বছর
+                      </div>
+                      <button
+                        class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300 hover:text-blue-700"
+                        onclick="toggleModal2()"
+                      >
+                        প্রকল্প এলাকায় অন্তর্ভুক্তি<span
+                          ><i class="text-lg ml-1 fa-solid fa-caret-down"></i
+                        ></span>
+                      </button>
+                    </div>
+                    <div class="flex items-center justify-center space-y-2">
+                      <div class="w-1/2">
+                        <button class="w-full">
+                          <a href="#e-commerce" class="btn">বিস্তারিত</a>
+                        </button>
+                      </div>
+                      <div class="w-1/2">
+                        <button class="w-full">
+                          <a
+                            href="https://freelancer.gov.bd/#/training-details/8 "
+                            target="_blank"
+                            class="btn"
+                            >রেজিস্ট্রেশান</a
+                          >
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card-2 design ends here -->
+                <!-- Card-3 design starts -->
+                <div
+                  class="pb-6 bg-white rounded-b-xl hover:ring-1 hover:ring-green-400 w-full shadow-md shadow-slate-500 transform hover:scale-105 duration-500"
+                >
+                  <h1 class="bg-cyan-700 text-white font-semibold py-1 px-1">
+                    Graphics Design
+                  </h1>
+
+                  <img
+                    class="h-40 w-64 mx-auto rounded-b-xl ring-1 ring-green-400 sm:flex-shrink-0 transform hover:scale-105 duration-500"
+                    src="../images/graphic-design.jpg"
+                    alt="Women call center logo"
+                  />
+                  <div class="text-center space-y-4 mt-3">
+                    <div
+                      class="flex place-items-center justify-center space-x-2 px-1 text-xs"
+                    >
+                      <div
+                        class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300"
+                      >
+                        ন্যূনতম এস.এস.সি. পাশ
+                      </div>
+                      <div
+                        class="w-1/3 rounded-xl bg-white px-6 py-1 shadow-md shadow-emerald-300"
+                      >
+                        বয়স ১৮-৪০ বছর
+                      </div>
+                      <button
+                        class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300 hover:text-blue-700"
+                        onclick="toggleModal3()"
+                      >
+                        প্রকল্প এলাকায় অন্তর্ভুক্তি<span
+                          ><i class="text-lg ml-1 fa-solid fa-caret-down"></i
+                        ></span>
+                      </button>
+                    </div>
+                    <div class="flex items-center justify-center space-y-2">
+                      <div class="w-1/2">
+                        <button class="w-full">
+                          <a href="#graphic-design" class="btn">বিস্তারিত</a>
+                        </button>
+                      </div>
+                      <div class="w-1/2">
+                        <button class="w-full">
+                          <a
+                            href="https://freelancer.gov.bd/#/training-details/4"
+                            class="btn"
+                            >রেজিস্ট্রেশান</a
+                          >
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card-3 design ends here -->
+                <!-- Card-4 design starts -->
+                <div
+                  class="pb-6 bg-white rounded-b-xl hover:ring-1 hover:ring-green-400 w-full shadow-md shadow-slate-500 transform hover:scale-105 duration-500"
+                >
+                  <h1
+                    class="bg-cyan-700 text-center text-white font-semibold py-1 px-1"
+                  >
+                    Web Design and Development
+                  </h1>
+
+                  <img
+                    class="h-40 w-64 mx-auto rounded-b-xl ring-1 ring-green-400 sm:flex-shrink-0 transform hover:scale-105 duration-500"
+                    src="../images/web-design.png"
+                    alt="Women call center logo"
+                  />
+                  <div class="text-center space-y-4 mt-3">
+                    <div
+                      class="flex place-items-center justify-center space-x-2 px-1 text-xs"
+                    >
+                      <div
+                        class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300"
+                      >
+                        ন্যূনতম এইচ.এস.সি. পাশ
+                      </div>
+                      <div
+                        class="w-1/3 rounded-xl bg-white px-6 py-1 shadow-md shadow-emerald-300"
+                      >
+                        বয়স ১৮-৪০ বছর
+                      </div>
+                      <button
+                        class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300 hover:text-blue-700"
+                        onclick="toggleModal3()"
+                      >
+                        প্রকল্প এলাকায় অন্তর্ভুক্তি<span
+                          ><i class="text-lg ml-1 fa-solid fa-caret-down"></i
+                        ></span>
+                      </button>
+                    </div>
+                    <div class="flex items-center justify-center space-y-2">
+                      <div class="w-1/2">
+                        <button class="w-full">
+                          <a href="#web-design" class="btn">বিস্তারিত</a>
+                        </button>
+                      </div>
+                      <div class="w-1/2">
+                        <button class="w-full">
+                          <a
+                            href="https://freelancer.gov.bd/#/training-details/5"
+                            target="_blank"
+                            class="btn"
+                            >রেজিস্ট্রেশান</a
+                          >
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card-4 design ends here -->
+                <!-- Card-5 design starts -->
+                <div
+                  class="pb-6 bg-white rounded-b-xl hover:ring-1 hover:ring-green-400 w-full shadow-md shadow-slate-500 transform hover:scale-105 duration-500"
+                >
+                  <h1
+                    class="bg-cyan-700 text-center text-white font-semibold py-1 px-1"
+                  >
+                    Digital Marketing
+                  </h1>
+
+                  <img
+                    class="h-40 w-64 mx-auto rounded-b-xl ring-1 ring-green-400 sm:flex-shrink-0 transform hover:scale-105 duration-500"
+                    src="../images/digital-marketing.webp"
+                    alt="Women call center logo"
+                  />
+                  <div class="text-center space-y-4 mt-3">
+                    <div
+                      class="flex place-items-center justify-center space-x-2 px-1 text-xs"
+                    >
+                      <div
+                        class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300"
+                      >
+                        ন্যূনতম এইচ.এস.সি. পাশ
+                      </div>
+                      <div
+                        class="w-1/3 rounded-xl bg-white px-6 py-1 shadow-md shadow-emerald-300"
+                      >
+                        বয়স ১৮-৪০ বছর
+                      </div>
+                      <button
+                        class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300 hover:text-blue-700"
+                        onclick="toggleModal3()"
+                      >
+                        প্রকল্প এলাকায় অন্তর্ভুক্তি<span
+                          ><i class="text-lg ml-1 fa-solid fa-caret-down"></i
+                        ></span>
+                      </button>
+                    </div>
+                    <div class="flex items-center justify-center space-y-2">
+                      <div class="w-1/2">
+                        <button class="w-full">
+                          <a href="#digital-marketing" class="btn">বিস্তারিত</a>
+                        </button>
+                      </div>
+                      <div class="w-1/2">
+                        <button class="w-full">
+                          <a
+                            href="https://freelancer.gov.bd/#/training-details/3"
+                            target="_blank"
+                            class="btn"
+                            >রেজিস্ট্রেশান</a
+                          >
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card-5 design ends here -->
+                <!-- Card-6 design starts -->
+                <div
+                  class="bg-white pb-6 rounded-b-xl hover:ring-1 hover:ring-green-400 w-full shadow-md shadow-slate-500 transform hover:scale-105 duration-500"
+                >
+                  <h1
+                    class="bg-cyan-700 tracking-wider text-center text-white font-semibold py-1 px-1"
+                  >
+                    IT Service Provider
+                  </h1>
+
+                  <img
+                    class="h-40 w-64 mx-auto rounded-b-xl ring-1 ring-green-400 sm:flex-shrink-0 transform hover:scale-105 duration-500"
+                    src="../images/it-service.jpg"
+                    alt="it-service logo"
+                  />
+                  <div class="text-center space-y-4 mt-3">
+                    <div
+                      class="flex place-items-center justify-center space-x-2 px-1 text-xs"
+                    >
+                      <div
+                        class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300"
+                      >
+                        ন্যূনতম এস.এস.সি. পাশ
+                      </div>
+                      <div
+                        class="w-1/3 rounded-xl bg-white px-6 py-1 shadow-md shadow-emerald-300"
+                      >
+                        বয়স ১৮-৪০ বছর
+                      </div>
+                      <button
+                        class="w-1/3 rounded-xl bg-white pr-2 pl-0.5 py-1 shadow-md shadow-emerald-300 hover:text-blue-700"
+                        onclick="toggleModal3()"
+                      >
+                        প্রকল্প এলাকায় অন্তর্ভুক্তি<span
+                          ><i class="text-lg ml-1 fa-solid fa-caret-down"></i
+                        ></span>
+                      </button>
+                    </div>
+                    <div class="flex items-center justify-center space-y-2">
+                      <div class="w-1/2">
+                        <button class="w-full">
+                          <a href="#it-service" class="btn">বিস্তারিত</a>
+                        </button>
+                      </div>
+                      <div class="w-1/2">
+                        <button class="w-full">
+                          <a
+                            href="https://freelancer.gov.bd/#/training-details/6"
+                            target="_blank"
+                            class="btn"
+                            >রেজিস্ট্রেশান</a
+                          >
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card-6 design ends here -->
+              </div>
+            </div>
+            <!-- card section ends  -->
+          </div>
+          <!-- Left side ends -->
+        </div>
+      </section>
+      <!-- Main contents (left+right) section ends -->
+
+      <!-- Honorable people section starts here  -->
+      <section class="max-w-screen-lg mx-auto px-4 md:px-8 lg:px-16">
+        <div class="bg-zinc-100 border-l-2 border-zinc-200 ml-1">
+          <div class="flex">
+            <!-- card-1(joy) starts-->
+            <div
+              class="rounded-b-lg hover:ring-1 hover:ring-blue-800 w-full shadow-lg transform hover:scale-105 duration-500"
+            >
+              <div class="bg-blue-800 mt-7 px-4 py-2 w-full text-white">
+                <h2 class="text-base font-semibold text-center">
+                  মাননীয় প্রধানমন্ত্রীর তথ্য ও যোগাযোগ প্রযুক্তি বিষয়ক মাননীয়
+                  উপদেষ্টা
+                </h2>
+              </div>
+              <img
+                class="bg-slate-400 h-36 w-36 mx-auto mt-1 sm:flex-shrink-0"
+                src="../images/joy-sir.jpg"
+                alt="logo"
+                class="w-full h-auto"
+              />
+              <div class="p-4">
+                <h2 class="-m-3 text-xs text-center">জনাব সজীব ওয়াজেদ</h2>
+              </div>
+              <div class="flex justify-center items-center -mt-4 mb-2">
+                <h3 class="my-2">
+                  <button
+                    class="text-xs text-blue-500 underline hover:text-blue-700"
+                    onclick="toggleModal()"
+                  >
+                    বিস্তারিত
+                  </button>
+
+                  <!-- <a
+                      href="#joy-sir"
+                      class="text-xs text-blue-500 underline hover:text-blue-700"
+                      >বিস্তারিত</a
+                    > -->
+                </h3>
+              </div>
+            </div>
+            <!-- card-1 ends-->
+            <!-- card-2(polok) starts-->
+            <div
+              class="rounded-b-xl hover:ring-1 hover:ring-green-400 w-full shadow-lg transform hover:scale-105 duration-500"
+            >
+              <div class="bg-green-300 p-4 w-full">
+                <h2 class="text-xs font-semibold text-center">
+                  মাননীয় প্রতিমন্ত্রী
+                </h2>
+              </div>
+              <img
+                class="bg-slate-400 h-36 w-36 mx-auto mt-1 sm:flex-shrink-0"
+                src="../images/polok-sir.jpg"
+                alt="Bongobondhu logo"
+                class="w-full h-auto"
+              />
+              <div class="p-4">
+                <h2 class="-m-3 text-xs text-center">
+                  জনাব জুনাইদ আহ্‌মেদ পলক
+                </h2>
+              </div>
+              <div class="flex justify-center items-center -mt-4 mb-2">
+                <h3 class="my-2">
+                  <button
+                    class="text-xs text-blue-500 underline hover:text-blue-700"
+                    onclick="toggleModal4()"
+                  >
+                    বিস্তারিত
+                  </button>
+                </h3>
+              </div>
+            </div>
+            <!-- card-2 ends-->
+            <!-- card-3 starts-->
+            <div
+              class="rounded-b-xl hover:ring-1 hover:ring-green-400 w-full shadow-lg transform hover:scale-105 duration-500"
+            >
+              <div class="bg-green-300 p-4 w-full">
+                <h2 class="text-xs font-semibold text-center">সচিব</h2>
+              </div>
+              <img
+                class="bg-slate-400 h-36 w-36 mx-auto mt-1 sm:flex-shrink-0"
+                src="../images/secretary.png"
+                alt="Bongobondhu logo"
+                class="w-full h-auto"
+              />
+              <div class="p-4">
+                <h2 class="-m-3 text-xs text-center">জনাব মোঃ সামসুল আরেফিন</h2>
+              </div>
+              <div class="flex justify-center items-center -mt-4 mb-2">
+                <h3 class="my-2">
+                  <a
+                    href="#"
+                    class="text-xs text-blue-500 underline hover:text-blue-700"
+                    >বিস্তারিত</a
+                  >
+                </h3>
+              </div>
+            </div>
+            <!-- card-3 ends-->
+            <!-- card-4 starts-->
+            <div
+              class="rounded-b-xl hover:ring-1 hover:ring-green-400 w-full shadow-lg transform hover:scale-105 duration-500"
+            >
+              <div class="bg-green-300 p-4 w-full">
+                <h2 class="text-xs font-semibold text-center">মহাপরিচালক</h2>
+              </div>
+              <img
+                class="bg-slate-400 h-36 w-36 mx-auto mt-1 sm:flex-shrink-0"
+                src="../images/dg-sir.jpg"
+                alt="Bongobondhu logo"
+                class="w-full h-auto"
+              />
+              <div class="p-4">
+                <h2 class="-m-3 text-xs text-center">জনাব মোঃ মোস্তফা কামাল</h2>
+              </div>
+              <div class="flex justify-center items-center -mt-4 mb-2">
+                <h3 class="my-2">
+                  <a
+                    href="#"
+                    class="text-xs text-blue-500 underline hover:text-blue-700"
+                    >বিস্তারিত</a
+                  >
+                </h3>
+              </div>
+            </div>
+            <!-- card-4 ends-->
+            <!-- card-5 starts-->
+            <div
+              class="rounded-b-xl hover:ring-1 hover:ring-green-400 w-full shadow-lg transform hover:scale-105 duration-500"
+            >
+              <div class="bg-green-300 p-4 w-full">
+                <h2 class="text-xs font-semibold text-center">
+                  প্রকল্প পরিচালক
+                </h2>
+              </div>
+              <img
+                class="bg-slate-400 h-36 w-36 mx-auto mt-1 sm:flex-shrink-0"
+                src="../images/pd-sir.jpeg"
+                alt="Bongobondhu logo"
+                class="w-full h-auto"
+              />
+              <div class="p-4">
+                <h2 class="-m-3 text-xs text-center">রায়হানা ইসলাম</h2>
+              </div>
+              <div class="flex justify-center items-center -mt-4 mb-2">
+                <h3 class="my-2">
+                  <a
+                    href="#"
+                    class="text-xs text-blue-500 underline hover:text-blue-700"
+                    >বিস্তারিত</a
+                  >
+                </h3>
+              </div>
+            </div>
+            <!-- card-5 ends-->
+          </div>
+        </div>
+      </section>
+      <!-- Honorable people section ends here  -->
+
+      <!-- card description section starts  -->
+      <section class="max-w-screen-lg mx-auto px-4 md:px-8 lg:px-16">
+        <div class="flex flex-col px-7 py-8 gap-6">
+          <!-- Card-0 about project starts  -->
+          <div
+            id="her-power"
+            class="scroll-mt-16 rounded-xl bg-zinc-50 px-7 py-3 text-justify shadow-lg"
+          >
+            <h1
+              class="py-4 bg-cyan-700 text-center text-3xl font-extrabold text-white"
+            >
+              হার পাওয়ার প্রকল্প
+            </h1>
+
+            <img
+              class="w-full max-h-52 bg-slate-400 sm:flex-shrink-0"
+              src="../images/her-power-project.jpg"
+              alt="Call center Agent logo"
+              class="h-auto w-full"
+            />
+
+            <div class="my-5 p-3 bg-gray-200">
+              <p class="">
+                <span class="font-bold text-white bg-blue-950 mr-3 px-3"
+                  >উদ্দেশ্য:</span
+                >তথ্য-প্রযুক্তির সর্বোত্তম নিরাপদ ব্যবহার করে দক্ষতা বৃদ্ধির
+                মাধ্যমে নারীদের আত্মকর্মসংস্থানের ব্যবস্থা ও উদ্যোক্তা হিসাবে
+                তাদের টেকসই ক্ষমতায়ন নিশ্চিত করা।
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-blue-100 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 px-3 w-full">
+                লক্ষ্যমাত্রাঃ
+              </h1>
+              <div>
+                <p>
+                  <span class="font-bold">ক<span>&#41;</span> </span>৪৩টি জেলার
+                  সদর উপজেলাসহ মোট ৩টি উপজেলা ও রংপুর জেলার পীরগঞ্জ উপজেলাসহ মোট
+                  ১৩০ টি উপজেলায় তথ্য প্রযুক্তিতে নারীদের সক্ষমতা বৃদ্ধিতে চারটি
+                  ক্যাটাগরিতে মোট ২৫,১২৫ জন নারীকে ০৫ (পাঁচ) মাসব্যাপী প্রশিক্ষণ
+                  প্রদান।
+                </p>
+                <ul class="list-disc ml-16 space-y-1">
+                  <li>IT Service Provider হিসেবে ১০,৪০০ জন</li>
+                  <li>Women Freelancer হিসেবে ১০,৪০০ জন</li>
+                  <li>Women Call Centre Agent হিসেবে ১,০৭৫ জন</li>
+                  <li>Women E-commerce Professional হিসেবে ৩,২৫০ জন</li>
+                </ul>
+              </div>
+
+              <p>
+                <span class="font-bold">খ<span>&#41;</span></span>
+                প্রশিক্ষণ শেষে উত্তীর্ণ প্রশিক্ষণার্থীদের নিয়ে ০১ (এক) মাসব্যাপী
+                মেন্টরশীপ প্রোগ্রাম আয়োজন;
+              </p>
+              <p>
+                <span class="font-bold">গ<span>&#41;</span></span>
+                তথ্যপ্রযুক্তি প্রয়োগে নারীর ক্ষমতায়ন বিষয়ে কেন্দ্রীয় পর্যায়ে ২টি
+                ও ৪৪টি জেলায় ১টি করে সর্বমোট ৪৬টি সেমিনার আয়োজন ও প্রচার
+              </p>
+              <p>
+                <span class="font-bold">ঘ<span>&#41;</span></span> ২৫,১২৫ জন
+                নারীকে আইসিটি পেশাজীবী এবং উদ্যোক্তা হিসেবে গড়ে তোলার জন্য একটি
+                একক নারী উদ্যোক্তা প্ল্যাটফরম তৈরি।
+              </p>
+              <p>
+                <span class="font-bold">ঙ<span>&#41;</span></span> সরকারি,
+                বেসরকারি বিভিন্ন সংস্থার সাথে পার্টনারশীপ স্থাপন এবং চাকুরী
+                মেলার আয়োজন।
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-gray-200 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 mr-3 px-3">
+                প্রকল্পের ফলাফলঃ
+              </h1>
+              <p>
+                তথ্য প্রযুক্তি ব্যবহারের মাধ্যমে নারীর দক্ষতা অর্জিত হবে, নতুন
+                কর্মসংস্থান এর সৃষ্টি হবে অর্থাৎ অর্থনৈতিক কর্মকাণ্ডে নারীদের
+                অংশগ্রহণ বৃদ্ধি পাবে। উপজেলা পর্যায়ে আইসিটি সংশ্লিষ্ট বিষয়ে
+                প্রশিক্ষণের মাধ্যমে প্রযুক্তি খাতে দক্ষ নারী কর্মী ও নারী
+                উদ্যোক্তা তৈরি হবে। সরকারি-বেসরকারি সংস্থার সাথে পার্টনারশীপ এর
+                ফলে উপজেলা পর্যায়ের নারীদের প্রশিক্ষণ পরবর্তী কর্মসংস্থান এবং
+                পরামর্শদানের মাধ্যমে টেকসই উন্নয়ন নিশ্চিত হবে।
+              </p>
+            </div>
+          </div>
+          <!-- Card-0 about project ends   -->
+          <!-- Card-1 description starts  -->
+          <div
+            id="call-center"
+            class="scroll-mt-16 rounded-xl bg-white px-7 py-3 text-justify shadow-lg"
+          >
+            <h1
+              class="py-4 bg-cyan-700 text-center text-3xl font-extrabold text-white"
+            >
+              Woman Call center Agent প্রশিক্ষণ
+            </h1>
+
+            <img
+              class="w-full max-h-64 bg-slate-400 sm:flex-shrink-0"
+              src="../images/call-center.jpg"
+              alt="Call center Agent logo"
+              class="h-auto w-full"
+            />
+            <p class="text-center mt-4">
+              <button>
+                <a
+                  href="https://freelancer.gov.bd/#/training-details/7"
+                  target="_blank"
+                  class="btn-single"
+                  >Registration</a
+                >
+              </button>
+            </p>
+            <h3 class="my-5 indent-16 text-blue-700 font-bold">
+              প্রত্যেক জেলায় ২৫ জন করে ৪৩টি জেলায় ১,০৭৫ জন নারীকে প্রশিক্ষণ দেয়া
+              হবে। লেভেল-১ এ প্রতিটি উপজেলায় প্রশিক্ষণ নেবে ২৫ জন করে।
+              অনুরূপভাবে লেভেল-২ এবং লেভেল-৩ তে প্রশিক্ষণ প্রাপ্ত হবে।
+            </h3>
+            <!-- Project area start -->
+            <div class="bg-blue-100 my-5 p-3">
+              <h1 class="font-bold text-white bg-blue-950 px-3 w-full">
+                প্রকল্প জেলাসমূহ (৪৩)
+              </h1>
+              <p id="paragraph1" class="truncate-lines">
+                নরসিংদী, গাজীপুর, শরীয়তপুর, নারায়ণগঞ্জ, কিশোরগঞ্জ, মানিকগঞ্জ,
+                মুন্সিগঞ্জ, রাজবাড়ী, মাদারীপুর, গোপালগঞ্জ, ফেনী,
+                ব্রাহ্মণবাড়িয়া, চাঁদপুর, লক্ষ্মীপুর, কক্সবাজার, খাগড়াছড়ি,
+                বান্দরবান, সিরাজগঞ্জ, নাটোর, জয়পুরহাট, চাঁপাইনবাবগঞ্জ,
+                সাতক্ষীরা, মেহেরপুর, নড়াইল, চুয়াডাঙ্গা, মাগুরা, বাগেরহাট,
+                ঝিনাইদহ, ঝালকাঠি, পিরোজপুর, ভোলা, বরগুনা, মৌলভীবাজার, হবিগঞ্জ,
+                সুনামগঞ্জ, পঞ্চগড়, লালমনিরহাট, নীলফামারী, গাইবান্ধা, ঠাকুরগাঁও,
+                রংপুর, কুড়িগ্রাম, শেরপুর, নেত্রকোণা
+              </p>
+              <button id="moreBtn1" class="text-blue-500 underline mt-2">
+                More
+              </button>
+            </div>
+            <!-- Project area ends  -->
+            <div class="my-5 p-3 bg-gray-200">
+              <p class="">
+                <span class="font-bold text-white bg-blue-950 mr-3 px-3"
+                  >উদ্দেশ্য:</span
+                >টার্গেট গ্রুপকে কোর্স কারিকুলাম অনুযায়ী তথ্য-প্রযুক্তি ক্ষেত্রে
+                দক্ষ হিসেবে গড়ে তোলা এবং সঠিকভাবে পর্যবেক্ষণ ও মূল্যায়ন এর
+                মাধ্যমে নারী শিক্ষার্থীদেরকে লেভেলগুলোতে উত্তীর্ণ করা মাধ্যমে
+                তিনটি লেভেল সফলভাবে সুসম্পন্ন করা।
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-blue-100 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 px-3 w-full">
+                প্রশিক্ষণার্থী নির্বাচনের সংক্ষিপ্ত মানদণ্ড:
+              </h1>
+              <p>
+                <span class="font-bold"
+                  >প্রশিক্ষণার্থীদের ন্যুনতম শিক্ষাগত যোগ্যতাঃ</span
+                >ন্যূনতম এস.এস.সি. পাশ শিক্ষার্থী/ ফ্রিল্যান্সার/ উদ্যোক্তা/
+                বেকার গ্রামীণ নারী।
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণার্থীদের বয়সঃ</span>
+                ১৮-৪০ বছর
+              </p>
+              <p>
+                <span class="font-bold">অন্যান্য দক্ষতাঃ</span> আইসিটির মৌলিক
+                জ্ঞান, দ্রুত শেখার ক্ষমতা এবং উদ্যোক্তা হওয়ার মানসিকতা।
+              </p>
+              <p>
+                <span class="font-bold">নোটঃ</span> পাশাপাশি, সুবিধাবঞ্চিত,
+                অনগ্রসরতা, দারিদ্রতা ও বিশেষ চাহিদা সম্পন্ন মেয়েদের অগ্রাধিকার
+                দেওয়া হবে।
+              </p>
+              <p>
+                <span class="font-bold text-red-500">সতর্কতাঃ</span> যারা
+                ইতঃপূর্বে এই ধরনের প্রশিক্ষণ গ্রহণ করেছেন তারা এই প্রশিক্ষণে
+                প্রশিক্ষণার্থী হিসাবে নির্বাচিত হওয়ার জন্য বিবেচিত হবেন না।
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-gray-200 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 mr-3 px-3">
+                প্রশিক্ষণের ক্যাটাগরি:
+              </h1>
+              <p>
+                <span class="font-bold">স্থান:</span> ভেন্ডর কোম্পানির নিজস্ব
+                ল্যাব অথবা স্থানীয় পর্যায়ের বিভিন্ন বেসরকারি ল্যাবসমূহ।
+              </p>
+              <p>
+                <span class="font-bold">স্থান:</span>অংশগ্রহণকারী: নারী
+                (ছাত্রী/ফ্রীল্যান্সার/এন্ট্রাপ্রেনিয়ার/পেশাজীবী/গ্রামীণ বেকার
+                নারী)
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণার্থী সংখ্যা:</span> ২৫ জন
+                (ব্যাচ প্রতি)
+              </p>
+              <p>
+                <span class="font-bold">ব্যাচ সংখ্যা:</span> ৪৩ (৪৩ জেলা x প্রতি
+                জেলায় ১ করে ব্যাচ)
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণের ব্যাপ্তি:</span> ১১০ দিন ( ৫
+                মাস x ২২ দিন)
+              </p>
+              <p>
+                <span class="font-bold">প্রতিদিন সেশন:</span> ৪টি (১ ঘণ্টা করে)
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-blue-100 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 mr-3 px-3">
+                কোর্স কারিকুলাম গুরুত্বপূর্ণ মডিউলঃ
+              </h1>
+              <p class="font-semibold mx-6 my-2">
+                Basic Concepts of Freelancing & Outsourcing , Basic ICT
+                knowledge, Computer & Internet Fundamentals, Documentation &
+                Presentation(MS Word . current version), Intro to Call/Contact
+                Center, Call/contact center Operations, Performance Measures and
+                Professional Development, The Power of One Interaction & many
+                Interaction, Power Phrasing Overview and Promotion &
+                Distribution
+              </p>
+              <div class="mx-6">
+                <h1 class="text-xs font-semibold bg-blue-200 p-2">
+                  লেভেলভিত্তিক সম্পূর্ণ কোর্স কারিকুলামের ডাউনলোড লিঙ্কঃ
+                </h1>
+                <div class="grid grid-cols-3 space-x-3">
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-১</a
+                      >
+                    </h3>
+                  </div>
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-২</a
+                      >
+                    </h3>
+                  </div>
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-৩</a
+                      >
+                    </h3>
+                  </div>
+                </div>
+                <p class="text-center mt-4">
+                  <button>
+                    <a
+                      href="https://freelancer.gov.bd/#/training-details/7"
+                      target="_blank"
+                      class="btn-single"
+                      >Registration</a
+                    >
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card-1 description ends  -->
+
+          <!-- Card-2 description starts  -->
+          <div
+            id="e-commerce"
+            class="scroll-mt-16 rounded-xl bg-white px-7 py-8 text-justify shadow-lg"
+          >
+            <h1
+              class="py-4 bg-cyan-700 text-center text-3xl font-extrabold text-white"
+            >
+              Woman E-commerce Professional প্রশিক্ষণ
+            </h1>
+
+            <img
+              class="w-full max-h-64 bg-slate-400 sm:flex-shrink-0"
+              src="../images/e-commerce.jpg"
+              alt="Call center Agent logo"
+              class="h-auto w-full"
+            />
+            <p class="text-center mt-4">
+              <button>
+                <a
+                  href="https://freelancer.gov.bd/#/training-details/8"
+                  target="_blank"
+                  class="btn-single"
+                  >Registration</a
+                >
+              </button>
+            </p>
+            <h3 class="my-5 indent-16 text-blue-700 font-bold">
+              প্রতি জেলায় ২৫ জন করে ১৩০টি উপজেলায় ৩,২৫০ জন নারীকে Women
+              E-commerce Professional হিসাবে তৈরি করার প্রশিক্ষণ দেয়া হবে।
+              প্রশিক্ষণের ব্যাপ্তি ৫ (পাঁচ) মাস। মোট তিনটি লেভেল-এ প্রশিক্ষণ
+              সম্পন্ন হবে। ৫ (পাঁচ) মাসের প্রশিক্ষণ শেষে প্রশিক্ষণার্থীদের জন্য
+              ০১ (এক) মাসব্যাপী মেন্টরশিপ প্রোগ্রাম আয়োজন করা হবে।
+            </h3>
+            <!-- Project area start -->
+            <div class="bg-blue-100 my-5 p-3">
+              <h1 class="font-bold text-white bg-blue-950 px-3 w-full">
+                প্রকল্প জেলাসমূহ (৪৩)
+              </h1>
+              <p id="paragraph2" class="truncate-lines">
+                নরসিংদী, গাজীপুর, শরীয়তপুর, নারায়ণগঞ্জ, কিশোরগঞ্জ, মানিকগঞ্জ,
+                মুন্সিগঞ্জ, রাজবাড়ী, মাদারীপুর, গোপালগঞ্জ, ফেনী,
+                ব্রাহ্মণবাড়িয়া, চাঁদপুর, লক্ষ্মীপুর, কক্সবাজার, খাগড়াছড়ি,
+                বান্দরবান, সিরাজগঞ্জ, নাটোর, জয়পুরহাট, চাঁপাইনবাবগঞ্জ,
+                সাতক্ষীরা, মেহেরপুর, নড়াইল, চুয়াডাঙ্গা, মাগুরা, বাগেরহাট,
+                ঝিনাইদহ, ঝালকাঠি, পিরোজপুর, ভোলা, বরগুনা, মৌলভীবাজার, হবিগঞ্জ,
+                সুনামগঞ্জ, পঞ্চগড়, লালমনিরহাট, নীলফামারী, গাইবান্ধা, ঠাকুরগাঁও,
+                রংপুর, কুড়িগ্রাম, শেরপুর, নেত্রকোণা
+              </p>
+              <button id="moreBtn2" class="text-blue-500 underline mt-2">
+                More
+              </button>
+            </div>
+            <!-- Project area ends  -->
+            <div class="my-5 p-3 bg-gray-200">
+              <p class="">
+                <span class="font-bold text-white bg-blue-950 mr-3 px-3"
+                  >উদ্দেশ্য:</span
+                >টার্গেট গ্রুপকে কোর্স কারিকুলাম অনুযায়ী তথ্য-প্রযুক্তি ক্ষেত্রে
+                দক্ষ হিসেবে গড়ে তোলা এবং সঠিকভাবে পর্যবেক্ষণ ও মূল্যায়ন এর
+                মাধ্যমে নারী শিক্ষার্থীদেরকে লেভেলগুলোতে উত্তীর্ণ করা মাধ্যমে
+                তিনটি লেভেল সফলভাবে সুসম্পন্ন করা।
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-blue-100 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 px-3 w-full">
+                প্রশিক্ষণার্থী নির্বাচনের সংক্ষিপ্ত মানদণ্ড:
+              </h1>
+              <p>
+                <span class="font-bold"
+                  >প্রশিক্ষণার্থীদের ন্যুনতম শিক্ষাগত যোগ্যতাঃ</span
+                >ন্যূনতম এস.এস.সি. পাশ শিক্ষার্থী/ ফ্রিল্যান্সার/ উদ্যোক্তা/
+                বেকার গ্রামীণ নারী।
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণার্থীদের বয়সঃ</span>
+                ১৮-৪০ বছর
+              </p>
+              <p>
+                <span class="font-bold">অন্যান্য দক্ষতাঃ</span> আইসিটির মৌলিক
+                জ্ঞান, দ্রুত শেখার ক্ষমতা এবং উদ্যোক্তা হওয়ার মানসিকতা।
+              </p>
+              <p>
+                <span class="font-bold">নোটঃ</span> পাশাপাশি, সুবিধাবঞ্চিত,
+                অনগ্রসরতা, দারিদ্রতা ও বিশেষ চাহিদা সম্পন্ন মেয়েদের অগ্রাধিকার
+                দেওয়া হবে।
+              </p>
+              <p>
+                <span class="font-bold text-red-500">সতর্কতাঃ</span> যারা
+                ইতঃপূর্বে এই ধরনের প্রশিক্ষণ গ্রহণ করেছেন তারা এই প্রশিক্ষণে
+                প্রশিক্ষণার্থী হিসাবে নির্বাচিত হওয়ার জন্য বিবেচিত হবেন না।
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-gray-200 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 mr-3 px-3">
+                প্রশিক্ষণের ক্যাটাগরি:
+              </h1>
+              <p>
+                <span class="font-bold">স্থান:</span> ভেন্ডর কোম্পানির নিজস্ব
+                ল্যাব অথবা স্থানীয় পর্যায়ের বিভিন্ন বেসরকারি ল্যাবসমূহ।
+              </p>
+              <p>
+                <span class="font-bold">স্থান:</span>অংশগ্রহণকারী: নারী
+                (ছাত্রী/ফ্রীল্যান্সার/এন্ট্রাপ্রেনিয়ার/পেশাজীবী/গ্রামীণ বেকার
+                নারী)
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণার্থী সংখ্যা:</span> ২৫ জন
+                (ব্যাচ প্রতি)
+              </p>
+              <p>
+                <span class="font-bold">ব্যাচ সংখ্যা:</span> ৪৩ (৪৩ জেলা x প্রতি
+                জেলায় ১ করে ব্যাচ)
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণের ব্যাপ্তি:</span> ১১০ দিন ( ৫
+                মাস x ২২ দিন)
+              </p>
+              <p>
+                <span class="font-bold">প্রতিদিন সেশন:</span> ৪টি (১ ঘণ্টা করে)
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-blue-100 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 mr-3 px-3">
+                কোর্স কারিকুলাম গুরুত্বপূর্ণ মডিউলঃ
+              </h1>
+              <p class="font-semibold mx-6 my-2">
+                Basic Concepts of Freelancing & Outsourcing , Basic ICT
+                knowledge, Computer & Internet Fundamentals, Documentation &
+                Presentation, Introduction to Wordpress for E-Commerce,
+                Converting our site to ecommerce site, Designing the e-commerce
+                site, Paypal integration with wordpress and testing with a
+                sandbox account, Intro to Shopify, Payment options for Shopify
+                Stores, Introduction to Graphic Design and different tools of
+                Photoshop, Card Design(Photoshop), Banner Design(Photoshop),
+                Different Tools of Illustrator, Using Graphics Design knowledge
+                in E-Commerce, An Overview of Entrepreneurship, Basic English
+                Grammar and Spoken English, Cost, Price & Profit Analysis
+              </p>
+              <div class="mx-6">
+                <h1 class="text-xs font-semibold bg-blue-200 p-2">
+                  লেভেলভিত্তিক সম্পূর্ণ কোর্স কারিকুলামের ডাউনলোড লিঙ্কঃ
+                </h1>
+                <div class="grid grid-cols-3 space-x-3">
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-১</a
+                      >
+                    </h3>
+                  </div>
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-২</a
+                      >
+                    </h3>
+                  </div>
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-৩</a
+                      >
+                    </h3>
+                  </div>
+                </div>
+                <p class="text-center mt-4">
+                  <button>
+                    <a
+                      href="https://freelancer.gov.bd/#/training-details/8"
+                      target="_blank"
+                      class="btn-single"
+                      >Registration</a
+                    >
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card-2 description ends  -->
+          <!-- Card-3 description starts  -->
+          <div
+            id="graphic-design"
+            class="scroll-mt-16 rounded-xl bg-white px-7 py-8 text-justify shadow-lg"
+          >
+            <h1
+              class="py-4 bg-cyan-700 text-center text-3xl font-extrabold text-white"
+            >
+              Woman Freelancer - Graphics Design প্রশিক্ষণ
+            </h1>
+
+            <img
+              class="w-full max-h-64 bg-slate-400 sm:flex-shrink-0"
+              src="../images/graphic-design.jpg"
+              alt="Call center Agent logo"
+              class="h-auto w-full"
+            />
+            <p class="text-center mt-4">
+              <button>
+                <a
+                  href="https://freelancer.gov.bd/#/training-details/4"
+                  target="_blank"
+                  class="btn-single"
+                  >Registration</a
+                >
+              </button>
+            </p>
+            <h3 class="my-5 indent-16 text-blue-700 font-bold">
+              প্রতি উপজেলায় ৪০ জন করে ১৩০টি উপজেলায় ৫,২০০ জন নারীকে Women
+              Freelancer on Graphics Design হিসেবে তৈরি করার প্রশিক্ষণ দেয়া হবে।
+              প্রশিক্ষণের ব্যাপ্তি ৫ (পাঁচ) মাস। মোট তিনটি লেভেল-এ প্রশিক্ষণ
+              সম্পন্ন হবে। ৫ (পাঁচ) মাসের প্রশিক্ষণ শেষে প্রশিক্ষণার্থীদের জন্য
+              ০১ (এক) মাসব্যাপী মেন্টরশিপ প্রোগ্রাম আয়োজন করা হবে।
+            </h3>
+            <!-- Project area start -->
+            <div class="bg-blue-100 my-5 p-3">
+              <h1 class="font-bold text-white bg-blue-950 px-3 w-full">
+                প্রকল্প উপজেলাসমূহ (১৩০)
+              </h1>
+              <p id="paragraph3" class="truncate-lines">
+                ফেনী সদর, সোনাগাজী, দাগনভূঞা, ব্রাহ্মণবাড়িয়া সদর, কসবা, নবীনগর,
+                চাঁদপুর সদর, মতলব দক্ষিণ, ফরিদগঞ্জ, লক্ষ্মীপুর সদর, রায়পুর,
+                রামগঞ্জ, কক্সবাজার সদর, চকরিয়া, রামু, খাগড়াছড়ি সদর, দিঘীনালা,
+                মাটিরাঙ্গা, বান্দরবান সদর, লামা, রোয়াংছড়ি, বেলকুচি, সিরাজগঞ্জ,
+                উল্লাপাড়া, নাটোর সদর, সিংড়া, বড়াইগ্রাম, আক্কেলপুর, পাঁচবিবি,
+                জয়পুরহাট সদর, চাঁপাইনবাবগঞ্জ সদর, গোমস্তাপুর, শিবগঞ্জ, কলারোয়া,
+                তালা, সাতক্ষীরা, মুজিবনগর, মেহেরপুর, গাংনী, নড়াইল সদর, লোহাগড়া,
+                কালিয়া, চুয়াডাঙ্গা সদর, আলমডাঙ্গা, দামুড়হুদা, শ্রীপুর, মাগুরা,
+                মহম্মদপুর, বাগেরহাট, মোড়েলগঞ্জ, মোংলা, ঝিনাইদহ সদর, শৈলকূপা,
+                কালীগঞ্জ, ঝালকাঠি সদর, নলছিটি, রাজাপুর, পিরোজপুর সদর, নাজিরপুর,
+                মঠবাড়ীয়া, ভোলা সদর, বোরহানউদ্দিন, চরফ্যাশন, আমতলী, বরগুনা সদর,
+                তালতলি, বড়লেখা, মৌলভীবাজার, শ্রীমঙ্গল, চুনারুঘাট, হবিগঞ্জ,
+                মাধবপুর, সুনামগঞ্জ সদর, দক্ষিণ সুনামগঞ্জ, ছাতক, নরসিংদী,
+                রায়পুরা, শিবপুর, কালীগঞ্জ, কাপাসিয়া, গাজীপুর, শরিয়তপুর সদর,
+                নড়িয়া, ডামুড্যা, আড়াইহাজার, নারায়নগঞ্জ, রূপগঞ্জ, ভৈরব,
+                কিশোরগঞ্জ, মিঠামইন, মানিকগঞ্জ, দৌলতপুর, সিংগাইর, মুন্সিগঞ্জ,
+                শ্রীনগর, গজারিয়া, রাজবাড়ী সদর, পাংশা, বালিয়াকান্দি, মাদারীপুর,
+                শিবচর, রাজৈর, গোপালগঞ্জ, টুংগীপাড়া, কোটালীপাড়া, পঞ্চগড় সদর,
+                দেবীগঞ্জ, বোদা, লালমনিরহাট, কালীগঞ্জ, আদিতমারী, সৈয়দপুর,
+                কিশোরগঞ্জ, নীলফামারী, সাদুল্লাপুর, গাইবান্ধা, গোবিন্দগঞ্জ,
+                ঠাকুরগাঁও, পীরগঞ্জ, রাণীশংকৈল, পীরগঞ্জ, কুড়িগ্রাম সদর, রাজারহাট,
+                উলিপুর, শেরপুর, নালিতাবাড়ী, শ্রীবরদী, কেন্দুয়া, পূর্বধলা,
+                নেত্রকোণা
+              </p>
+              <button id="moreBtn3" class="text-blue-500 underline mt-2">
+                More
+              </button>
+            </div>
+            <!-- Project area ends  -->
+            <div class="my-5 p-3 bg-gray-200">
+              <p class="">
+                <span class="font-bold text-white bg-blue-950 mr-3 px-3"
+                  >উদ্দেশ্য:</span
+                >টার্গেট গ্রুপকে কোর্স কারিকুলাম অনুযায়ী তথ্য-প্রযুক্তি ক্ষেত্রে
+                দক্ষ হিসেবে গড়ে তোলা এবং সঠিকভাবে পর্যবেক্ষণ ও মূল্যায়ন এর
+                মাধ্যমে নারী শিক্ষার্থীদেরকে লেভেলগুলোতে উত্তীর্ণ করা মাধ্যমে
+                তিনটি লেভেল সফলভাবে সুসম্পন্ন করা।
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-blue-100 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 px-3 w-full">
+                প্রশিক্ষণার্থী নির্বাচনের সংক্ষিপ্ত মানদণ্ড:
+              </h1>
+              <p>
+                <span class="font-bold"
+                  >প্রশিক্ষণার্থীদের ন্যুনতম শিক্ষাগত যোগ্যতাঃ</span
+                >ন্যূনতম এইচ.এস.সি. পাশ শিক্ষার্থী/ ফ্রিল্যান্সার/ উদ্যোক্তা/
+                বেকার গ্রামীণ নারী।
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণার্থীদের বয়সঃ</span>
+                ১৮-৪০ বছর
+              </p>
+              <p>
+                <span class="font-bold">অন্যান্য দক্ষতাঃ</span> আইসিটির মৌলিক
+                জ্ঞান, দ্রুত শেখার ক্ষমতা এবং উদ্যোক্তা হওয়ার মানসিকতা।
+              </p>
+              <p>
+                <span class="font-bold">নোটঃ</span> এই ক্যাটাগরির প্রশিক্ষণের
+                ক্ষেত্রে <span class="text-red-500">বিজ্ঞান বিভাগ</span> এর
+                ছাত্রীরা প্রশিক্ষণার্থী হিসেবে নির্বাচিত হওয়ার ক্ষেত্রে
+                অগ্রাধিকার প্রাপ্ত হবে।
+              </p>
+              <p>
+                <span class="font-bold">পাশাপাশি - </span>সুবিধাবঞ্চিত,
+                অনগ্রসরতা, দারিদ্রতা ও বিশেষ চাহিদা সম্পন্ন মেয়েদের অগ্রাধিকার
+                দেওয়া হবে।
+              </p>
+              <p>
+                <span class="font-bold text-red-500">সতর্কতাঃ</span> যারা
+                ইতঃপূর্বে এই ধরনের প্রশিক্ষণ গ্রহণ করেছেন তারা এই প্রশিক্ষণে
+                প্রশিক্ষণার্থী হিসাবে নির্বাচিত হওয়ার জন্য বিবেচিত হবেন না।
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-gray-200 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 mr-3 px-3">
+                প্রশিক্ষণের ক্যাটাগরি:
+              </h1>
+              <p>
+                <span class="font-bold">স্থান:</span> ভেন্ডর কোম্পানির নিজস্ব
+                ল্যাব অথবা স্থানীয় পর্যায়ের বিভিন্ন বেসরকারি ল্যাবসমূহ।
+              </p>
+              <p>
+                <span class="font-bold">স্থান:</span>অংশগ্রহণকারী: নারী
+                (ছাত্রী/ফ্রীল্যান্সার/এন্ট্রাপ্রেনিয়ার/পেশাজীবী/গ্রামীণ বেকার
+                নারী)
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণার্থী সংখ্যা:</span> ২০ জন
+                (ব্যাচ প্রতি)
+              </p>
+              <p>
+                <span class="font-bold">ব্যাচ সংখ্যা:</span> ২৬০ (১৩০ উপজেলা x
+                প্রতি উপজেলায় ২ করে ব্যাচ)
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণের ব্যাপ্তি:</span> ১১০ দিন ( ৫
+                মাস x ২২ দিন)
+              </p>
+              <p>
+                <span class="font-bold">প্রতিদিন সেশন:</span> ৪টি (১ ঘণ্টা করে)
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-blue-100 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 mr-3 px-3">
+                কোর্স কারিকুলাম গুরুত্বপূর্ণ মডিউলঃ
+              </h1>
+              <p class="font-semibold mx-6 my-2">
+                Basic Concepts of Freelancing & Outsourcing , Basic ICT
+                knowledge, Computer & Internet Fundamentals, Documentation &
+                Presentation(MS Word . current version), An Overview of
+                Entrepreneurship, Work Ethics in Online Marketplace, Cost, Price
+                & Profit Analysis, Basic English Grammar and Spoken English<br />
+                Introduction To Graphics Design, Fundamentals of Typography,
+                Fundamentals of Shape and Color , Graphic Design and different
+                tools of Photoshop, Basic knowledge of layer & mask(Photoshop),
+                Clone Stamp with Retouching & removing(Photoshop), Logo Design
+                for Illustrator, T-shirt Design, Social Media Graphics, Facebook
+                Ad`s
+              </p>
+              <div class="mx-6">
+                <h1 class="text-xs font-semibold bg-blue-200 p-2">
+                  লেভেলভিত্তিক সম্পূর্ণ কোর্স কারিকুলামের ডাউনলোড লিঙ্কঃ
+                </h1>
+                <div class="grid grid-cols-3 space-x-3">
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-১</a
+                      >
+                    </h3>
+                  </div>
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-২</a
+                      >
+                    </h3>
+                  </div>
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-৩</a
+                      >
+                    </h3>
+                  </div>
+                </div>
+                <p class="text-center mt-4">
+                  <button>
+                    <a
+                      href="https://freelancer.gov.bd/#/training-details/4"
+                      target="_blank"
+                      class="btn-single"
+                      >Registration</a
+                    >
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card-3 description ends  -->
+          <!-- Card-4 description starts  -->
+          <div
+            id="web-design"
+            class="scroll-mt-16 rounded-xl bg-white px-7 py-8 text-justify shadow-lg"
+          >
+            <h1
+              class="py-4 bg-cyan-700 text-center text-3xl font-extrabold text-white"
+            >
+              Woman Freelancer - Web Design and Development প্রশিক্ষণ
+            </h1>
+
+            <img
+              class="w-full max-h-80 bg-slate-400 sm:flex-shrink-0"
+              src="../images/web-design.png"
+              alt="Call center Agent logo"
+              class="h-auto w-full"
+            />
+            <p class="text-center mt-4">
+              <button>
+                <a
+                  href="https://freelancer.gov.bd/#/training-details/5"
+                  target="_blank"
+                  class="btn-single"
+                  >Registration</a
+                >
+              </button>
+            </p>
+            <h3 class="my-5 indent-16 text-blue-700 font-bold">
+              প্রতি উপজেলায় ২০ জন করে ১৩০টি উপজেলায় ২,৬০০ জন নারীকে Women
+              Freelancer on Web Design and Development হিসেবে তৈরি করার
+              প্রশিক্ষণ দেয়া হবে। প্রশিক্ষণের ব্যাপ্তি ৫ (পাঁচ) মাস। মোট তিনটি
+              লেভেল-এ প্রশিক্ষণ সম্পন্ন হবে। ৫ (পাঁচ) মাসের প্রশিক্ষণ শেষে
+              প্রশিক্ষণার্থীদের জন্য ০১ (এক) মাসব্যাপী মেন্টরশিপ প্রোগ্রাম আয়োজন
+              করা হবে।
+            </h3>
+            <!-- Project area start -->
+            <div class="bg-blue-100 my-5 p-3">
+              <h1 class="font-bold text-white bg-blue-950 px-3 w-full">
+                প্রকল্প উপজেলাসমূহ (১৩০)
+              </h1>
+              <p id="paragraph4" class="truncate-lines">
+                ফেনী সদর, সোনাগাজী, দাগনভূঞা, ব্রাহ্মণবাড়িয়া সদর, কসবা, নবীনগর,
+                চাঁদপুর সদর, মতলব দক্ষিণ, ফরিদগঞ্জ, লক্ষ্মীপুর সদর, রায়পুর,
+                রামগঞ্জ, কক্সবাজার সদর, চকরিয়া, রামু, খাগড়াছড়ি সদর, দিঘীনালা,
+                মাটিরাঙ্গা, বান্দরবান সদর, লামা, রোয়াংছড়ি, বেলকুচি, সিরাজগঞ্জ,
+                উল্লাপাড়া, নাটোর সদর, সিংড়া, বড়াইগ্রাম, আক্কেলপুর, পাঁচবিবি,
+                জয়পুরহাট সদর, চাঁপাইনবাবগঞ্জ সদর, গোমস্তাপুর, শিবগঞ্জ, কলারোয়া,
+                তালা, সাতক্ষীরা, মুজিবনগর, মেহেরপুর, গাংনী, নড়াইল সদর, লোহাগড়া,
+                কালিয়া, চুয়াডাঙ্গা সদর, আলমডাঙ্গা, দামুড়হুদা, শ্রীপুর, মাগুরা,
+                মহম্মদপুর, বাগেরহাট, মোড়েলগঞ্জ, মোংলা, ঝিনাইদহ সদর, শৈলকূপা,
+                কালীগঞ্জ, ঝালকাঠি সদর, নলছিটি, রাজাপুর, পিরোজপুর সদর, নাজিরপুর,
+                মঠবাড়ীয়া, ভোলা সদর, বোরহানউদ্দিন, চরফ্যাশন, আমতলী, বরগুনা সদর,
+                তালতলি, বড়লেখা, মৌলভীবাজার, শ্রীমঙ্গল, চুনারুঘাট, হবিগঞ্জ,
+                মাধবপুর, সুনামগঞ্জ সদর, দক্ষিণ সুনামগঞ্জ, ছাতক, নরসিংদী,
+                রায়পুরা, শিবপুর, কালীগঞ্জ, কাপাসিয়া, গাজীপুর, শরিয়তপুর সদর,
+                নড়িয়া, ডামুড্যা, আড়াইহাজার, নারায়নগঞ্জ, রূপগঞ্জ, ভৈরব,
+                কিশোরগঞ্জ, মিঠামইন, মানিকগঞ্জ, দৌলতপুর, সিংগাইর, মুন্সিগঞ্জ,
+                শ্রীনগর, গজারিয়া, রাজবাড়ী সদর, পাংশা, বালিয়াকান্দি, মাদারীপুর,
+                শিবচর, রাজৈর, গোপালগঞ্জ, টুংগীপাড়া, কোটালীপাড়া, পঞ্চগড় সদর,
+                দেবীগঞ্জ, বোদা, লালমনিরহাট, কালীগঞ্জ, আদিতমারী, সৈয়দপুর,
+                কিশোরগঞ্জ, নীলফামারী, সাদুল্লাপুর, গাইবান্ধা, গোবিন্দগঞ্জ,
+                ঠাকুরগাঁও, পীরগঞ্জ, রাণীশংকৈল, পীরগঞ্জ, কুড়িগ্রাম সদর, রাজারহাট,
+                উলিপুর, শেরপুর, নালিতাবাড়ী, শ্রীবরদী, কেন্দুয়া, পূর্বধলা,
+                নেত্রকোণা
+              </p>
+              <button id="moreBtn4" class="text-blue-500 underline mt-2">
+                More
+              </button>
+            </div>
+            <!-- Project area ends  -->
+            <div class="my-5 p-3 bg-gray-200">
+              <p class="">
+                <span class="font-bold text-white bg-blue-950 mr-3 px-3"
+                  >উদ্দেশ্য:</span
+                >টার্গেট গ্রুপকে কোর্স কারিকুলাম অনুযায়ী তথ্য-প্রযুক্তি ক্ষেত্রে
+                দক্ষ হিসেবে গড়ে তোলা এবং সঠিকভাবে পর্যবেক্ষণ ও মূল্যায়ন এর
+                মাধ্যমে নারী শিক্ষার্থীদেরকে লেভেলগুলোতে উত্তীর্ণ করা মাধ্যমে
+                তিনটি লেভেল সফলভাবে সুসম্পন্ন করা।
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-blue-100 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 px-3 w-full">
+                প্রশিক্ষণার্থী নির্বাচনের সংক্ষিপ্ত মানদণ্ড:
+              </h1>
+              <p>
+                <span class="font-bold"
+                  >প্রশিক্ষণার্থীদের ন্যুনতম শিক্ষাগত যোগ্যতাঃ</span
+                >ন্যূনতম এইচ.এস.সি. পাশ শিক্ষার্থী/ ফ্রিল্যান্সার/ উদ্যোক্তা/
+                বেকার গ্রামীণ নারী।
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণার্থীদের বয়সঃ</span>
+                ১৮-৪০ বছর
+              </p>
+              <p>
+                <span class="font-bold">অন্যান্য দক্ষতাঃ</span> আইসিটির মৌলিক
+                জ্ঞান, দ্রুত শেখার ক্ষমতা এবং উদ্যোক্তা হওয়ার মানসিকতা।
+              </p>
+              <p>
+                <span class="font-bold">নোটঃ</span> এই ক্যাটাগরির প্রশিক্ষণের
+                ক্ষেত্রে <span class="text-red-500">বিজ্ঞান বিভাগ</span> এর
+                ছাত্রীরা প্রশিক্ষণার্থী হিসেবে নির্বাচিত হওয়ার ক্ষেত্রে
+                অগ্রাধিকার প্রাপ্ত হবে।
+              </p>
+              <p>
+                <span class="font-bold">পাশাপাশি - </span>সুবিধাবঞ্চিত,
+                অনগ্রসরতা, দারিদ্রতা ও বিশেষ চাহিদা সম্পন্ন মেয়েদের অগ্রাধিকার
+                দেওয়া হবে।
+              </p>
+              <p>
+                <span class="font-bold text-red-500">সতর্কতাঃ</span> যারা
+                ইতঃপূর্বে এই ধরনের প্রশিক্ষণ গ্রহণ করেছেন তারা এই প্রশিক্ষণে
+                প্রশিক্ষণার্থী হিসাবে নির্বাচিত হওয়ার জন্য বিবেচিত হবেন না।
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-gray-200 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 mr-3 px-3">
+                প্রশিক্ষণের ক্যাটাগরি:
+              </h1>
+              <p>
+                <span class="font-bold">স্থান:</span> ভেন্ডর কোম্পানির নিজস্ব
+                ল্যাব অথবা স্থানীয় পর্যায়ের বিভিন্ন বেসরকারি ল্যাবসমূহ।
+              </p>
+              <p>
+                <span class="font-bold">স্থান:</span>অংশগ্রহণকারী: নারী
+                (ছাত্রী/ফ্রীল্যান্সার/এন্ট্রাপ্রেনিয়ার/পেশাজীবী/গ্রামীণ বেকার
+                নারী)
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণার্থী সংখ্যা:</span> ২০ জন
+                (ব্যাচ প্রতি)
+              </p>
+              <p>
+                <span class="font-bold">ব্যাচ সংখ্যা:</span> ১৩০ (১৩০ উপজেলা x
+                প্রতি উপজেলায় ১ করে ব্যাচ)
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণের ব্যাপ্তি:</span> ১১০ দিন ( ৫
+                মাস x ২২ দিন)
+              </p>
+              <p>
+                <span class="font-bold">প্রতিদিন সেশন:</span> ৪টি (১ ঘণ্টা করে)
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-blue-100 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 mr-3 px-3">
+                কোর্স কারিকুলাম গুরুত্বপূর্ণ মডিউলঃ
+              </h1>
+              <p class="font-semibold mx-6 my-2">
+                Basic Concepts of Freelancing & Outsourcing , Basic ICT
+                knowledge, Computer & Internet Fundamentals, Documentation &
+                Presentation(MS Word . current version), An Overview of
+                Entrepreneurship, Work Ethics in Online Marketplace, Cost, Price
+                & Profit Analysis, Basic English Grammar and Spoken English<br />
+                Basic HTML and CSS, PHP, Building a website using HTML, CSS &
+                PHP, SQL, MYSQL, JAVASCRIPT, BOOTSTRAP, Site Upload /
+                Restoration, Domain & Hosting
+              </p>
+              <div class="mx-6">
+                <h1 class="text-xs font-semibold bg-blue-200 p-2">
+                  লেভেলভিত্তিক সম্পূর্ণ কোর্স কারিকুলামের ডাউনলোড লিঙ্কঃ
+                </h1>
+                <div class="grid grid-cols-3 space-x-3">
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-১</a
+                      >
+                    </h3>
+                  </div>
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-২</a
+                      >
+                    </h3>
+                  </div>
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-৩</a
+                      >
+                    </h3>
+                  </div>
+                </div>
+                <p class="text-center mt-4">
+                  <button>
+                    <a
+                      href="https://freelancer.gov.bd/#/training-details/5"
+                      target="_blank"
+                      class="btn-single"
+                      >Registration</a
+                    >
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card-4 description ends  -->
+          <!-- Card-5 description starts  -->
+          <div
+            id="digital-marketing"
+            class="scroll-mt-16 rounded-xl bg-white px-7 py-8 text-justify shadow-lg"
+          >
+            <h1
+              class="py-4 bg-cyan-700 text-center text-3xl font-extrabold text-white"
+            >
+              Woman Freelancer - Digital Marketing প্রশিক্ষণ
+            </h1>
+
+            <img
+              class="w-full max-h-80 bg-slate-400 sm:flex-shrink-0"
+              src="../images/digital-marketing.webp"
+              alt="Call center Agent logo"
+              class="h-auto w-full"
+            />
+            <p class="text-center mt-4">
+              <button>
+                <a
+                  href="https://freelancer.gov.bd/#/training-details/6"
+                  target="_blank"
+                  class="btn-single"
+                  >Registration</a
+                >
+              </button>
+            </p>
+            <h3 class="my-5 indent-16 text-blue-700 font-bold">
+              প্রতি উপজেলায় ২০ জন করে ১৩০টি উপজেলায় ২,৬০০ জন নারীকে Women
+              Freelancer on Digital Marketing হিসেবে তৈরি করার প্রশিক্ষণ দেয়া
+              হবে। প্রশিক্ষণের ব্যাপ্তি ৫ (পাঁচ) মাস। মোট তিনটি লেভেল-এ
+              প্রশিক্ষণ সম্পন্ন হবে। ৫ (পাঁচ) মাসের প্রশিক্ষণ শেষে
+              প্রশিক্ষণার্থীদের জন্য ০১ (এক) মাসব্যাপী মেন্টরশিপ প্রোগ্রাম আয়োজন
+              করা হবে।
+            </h3>
+            <!-- Project area start -->
+            <div class="bg-blue-100 my-5 p-3">
+              <h1 class="font-bold text-white bg-blue-950 px-3 w-full">
+                প্রকল্প উপজেলাসমূহ (১৩০)
+              </h1>
+              <p id="paragraph5" class="truncate-lines">
+                ফেনী সদর, সোনাগাজী, দাগনভূঞা, ব্রাহ্মণবাড়িয়া সদর, কসবা, নবীনগর,
+                চাঁদপুর সদর, মতলব দক্ষিণ, ফরিদগঞ্জ, লক্ষ্মীপুর সদর, রায়পুর,
+                রামগঞ্জ, কক্সবাজার সদর, চকরিয়া, রামু, খাগড়াছড়ি সদর, দিঘীনালা,
+                মাটিরাঙ্গা, বান্দরবান সদর, লামা, রোয়াংছড়ি, বেলকুচি, সিরাজগঞ্জ,
+                উল্লাপাড়া, নাটোর সদর, সিংড়া, বড়াইগ্রাম, আক্কেলপুর, পাঁচবিবি,
+                জয়পুরহাট সদর, চাঁপাইনবাবগঞ্জ সদর, গোমস্তাপুর, শিবগঞ্জ, কলারোয়া,
+                তালা, সাতক্ষীরা, মুজিবনগর, মেহেরপুর, গাংনী, নড়াইল সদর, লোহাগড়া,
+                কালিয়া, চুয়াডাঙ্গা সদর, আলমডাঙ্গা, দামুড়হুদা, শ্রীপুর, মাগুরা,
+                মহম্মদপুর, বাগেরহাট, মোড়েলগঞ্জ, মোংলা, ঝিনাইদহ সদর, শৈলকূপা,
+                কালীগঞ্জ, ঝালকাঠি সদর, নলছিটি, রাজাপুর, পিরোজপুর সদর, নাজিরপুর,
+                মঠবাড়ীয়া, ভোলা সদর, বোরহানউদ্দিন, চরফ্যাশন, আমতলী, বরগুনা সদর,
+                তালতলি, বড়লেখা, মৌলভীবাজার, শ্রীমঙ্গল, চুনারুঘাট, হবিগঞ্জ,
+                মাধবপুর, সুনামগঞ্জ সদর, দক্ষিণ সুনামগঞ্জ, ছাতক, নরসিংদী,
+                রায়পুরা, শিবপুর, কালীগঞ্জ, কাপাসিয়া, গাজীপুর, শরিয়তপুর সদর,
+                নড়িয়া, ডামুড্যা, আড়াইহাজার, নারায়নগঞ্জ, রূপগঞ্জ, ভৈরব,
+                কিশোরগঞ্জ, মিঠামইন, মানিকগঞ্জ, দৌলতপুর, সিংগাইর, মুন্সিগঞ্জ,
+                শ্রীনগর, গজারিয়া, রাজবাড়ী সদর, পাংশা, বালিয়াকান্দি, মাদারীপুর,
+                শিবচর, রাজৈর, গোপালগঞ্জ, টুংগীপাড়া, কোটালীপাড়া, পঞ্চগড় সদর,
+                দেবীগঞ্জ, বোদা, লালমনিরহাট, কালীগঞ্জ, আদিতমারী, সৈয়দপুর,
+                কিশোরগঞ্জ, নীলফামারী, সাদুল্লাপুর, গাইবান্ধা, গোবিন্দগঞ্জ,
+                ঠাকুরগাঁও, পীরগঞ্জ, রাণীশংকৈল, পীরগঞ্জ, কুড়িগ্রাম সদর, রাজারহাট,
+                উলিপুর, শেরপুর, নালিতাবাড়ী, শ্রীবরদী, কেন্দুয়া, পূর্বধলা,
+                নেত্রকোণা
+              </p>
+              <button id="moreBtn5" class="text-blue-500 underline mt-2">
+                More
+              </button>
+            </div>
+            <!-- Project area ends  -->
+            <div class="my-5 p-3 bg-gray-200">
+              <p class="">
+                <span class="font-bold text-white bg-blue-950 mr-3 px-3"
+                  >উদ্দেশ্য:</span
+                >টার্গেট গ্রুপকে কোর্স কারিকুলাম অনুযায়ী তথ্য-প্রযুক্তি ক্ষেত্রে
+                দক্ষ হিসেবে গড়ে তোলা এবং সঠিকভাবে পর্যবেক্ষণ ও মূল্যায়ন এর
+                মাধ্যমে নারী শিক্ষার্থীদেরকে লেভেলগুলোতে উত্তীর্ণ করা মাধ্যমে
+                তিনটি লেভেল সফলভাবে সুসম্পন্ন করা।
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-blue-100 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 px-3 w-full">
+                প্রশিক্ষণার্থী নির্বাচনের সংক্ষিপ্ত মানদণ্ড:
+              </h1>
+              <p>
+                <span class="font-bold"
+                  >প্রশিক্ষণার্থীদের ন্যুনতম শিক্ষাগত যোগ্যতাঃ</span
+                >ন্যূনতম এইচ.এস.সি. পাশ শিক্ষার্থী/ ফ্রিল্যান্সার/ উদ্যোক্তা/
+                বেকার গ্রামীণ নারী।
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণার্থীদের বয়সঃ</span>
+                ১৮-৪০ বছর
+              </p>
+              <p>
+                <span class="font-bold">অন্যান্য দক্ষতাঃ</span> আইসিটির মৌলিক
+                জ্ঞান, দ্রুত শেখার ক্ষমতা এবং উদ্যোক্তা হওয়ার মানসিকতা।
+              </p>
+              <p>
+                <span class="font-bold">নোটঃ</span> এই ক্যাটাগরির প্রশিক্ষণের
+                ক্ষেত্রে <span class="text-red-500">বিজ্ঞান বিভাগ</span> এর
+                ছাত্রীরা প্রশিক্ষণার্থী হিসেবে নির্বাচিত হওয়ার ক্ষেত্রে
+                অগ্রাধিকার প্রাপ্ত হবে।
+              </p>
+              <p>
+                <span class="font-bold">পাশাপাশি - </span>সুবিধাবঞ্চিত,
+                অনগ্রসরতা, দারিদ্রতা ও বিশেষ চাহিদা সম্পন্ন মেয়েদের অগ্রাধিকার
+                দেওয়া হবে।
+              </p>
+              <p>
+                <span class="font-bold text-red-500">সতর্কতাঃ</span> যারা
+                ইতঃপূর্বে এই ধরনের প্রশিক্ষণ গ্রহণ করেছেন তারা এই প্রশিক্ষণে
+                প্রশিক্ষণার্থী হিসাবে নির্বাচিত হওয়ার জন্য বিবেচিত হবেন না।
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-gray-200 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 mr-3 px-3">
+                প্রশিক্ষণের ক্যাটাগরি:
+              </h1>
+              <p>
+                <span class="font-bold">স্থান:</span> ভেন্ডর কোম্পানির নিজস্ব
+                ল্যাব অথবা স্থানীয় পর্যায়ের বিভিন্ন বেসরকারি ল্যাবসমূহ।
+              </p>
+              <p>
+                <span class="font-bold">স্থান:</span>অংশগ্রহণকারী: নারী
+                (ছাত্রী/ফ্রীল্যান্সার/এন্ট্রাপ্রেনিয়ার/পেশাজীবী/গ্রামীণ বেকার
+                নারী)
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণার্থী সংখ্যা:</span> ২০ জন
+                (ব্যাচ প্রতি)
+              </p>
+              <p>
+                <span class="font-bold">ব্যাচ সংখ্যা:</span> ১৩০ (১৩০ উপজেলা x
+                প্রতি উপজেলায় ১ করে ব্যাচ)
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণের ব্যাপ্তি:</span> ১১০ দিন ( ৫
+                মাস x ২২ দিন)
+              </p>
+              <p>
+                <span class="font-bold">প্রতিদিন সেশন:</span> ৪টি (১ ঘণ্টা করে)
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-blue-100 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 mr-3 px-3">
+                কোর্স কারিকুলাম গুরুত্বপূর্ণ মডিউলঃ
+              </h1>
+              <p class="font-semibold mx-6 my-2">
+                Basic Concepts of Freelancing & Outsourcing , Basic ICT
+                knowledge, Computer & Internet Fundamentals, Documentation &
+                Presentation(MS Word . current version), An Overview of
+                Entrepreneurship, Work Ethics in Online Marketplace, Cost, Price
+                & Profit Analysis, Basic English Grammar and Spoken English<br />
+                Introduction to Digital Marketing, Market Research, Making a
+                website, Email Marketing, Copywriting, Search Engine
+                Optimization, YouTube Marketing, Facebook Marketing, Twitter
+                Marketing, Quora Marketing, Google Awards, Google Analytics,
+                Instagram Marketing, Pinterest Marketing, LinkedIn Marketing &
+                Facebook Ads
+              </p>
+              <div class="mx-6">
+                <h1 class="text-xs font-semibold bg-blue-200 p-2">
+                  লেভেলভিত্তিক সম্পূর্ণ কোর্স কারিকুলামের ডাউনলোড লিঙ্কঃ
+                </h1>
+                <div class="grid grid-cols-3 space-x-3">
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-১</a
+                      >
+                    </h3>
+                  </div>
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-২</a
+                      >
+                    </h3>
+                  </div>
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-৩</a
+                      >
+                    </h3>
+                  </div>
+                </div>
+                <p class="text-center mt-4">
+                  <button>
+                    <a
+                      href="https://freelancer.gov.bd/#/training-details/6"
+                      target="_blank"
+                      class="btn-single"
+                      >Registration</a
+                    >
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card-5 description ends  -->
+          <!-- Card-6 description starts  -->
+          <div
+            id="it-service"
+            class="scroll-mt-16 rounded-xl bg-white px-7 py-8 text-justify shadow-lg"
+          >
+            <h1
+              class="py-4 bg-cyan-700 text-center text-3xl font-extrabold text-white"
+            >
+              IT Service Provider প্রশিক্ষণ
+            </h1>
+
+            <img
+              class="w-full max-h-80 bg-slate-400 sm:flex-shrink-0"
+              src="../images/it-service.jpg"
+              alt="it service logo"
+              class="h-auto w-full"
+            />
+            <p class="text-center mt-4">
+              <button>
+                <a href="#" class="btn-single">Registration</a>
+              </button>
+            </p>
+            <h3 class="my-5 indent-16 text-blue-700 font-bold">
+              প্রতি উপজেলায় ৮০ জন করে ১৩০টি উপজেলায় ১০,৪০০ জন নারীকে IT Service
+              Provider হিসেবে তৈরি করার প্রশিক্ষণ দেয়া হবে। প্রশিক্ষণের ব্যাপ্তি
+              ৫ (পাঁচ) মাস। মোট তিনটি লেভেল-এ প্রশিক্ষণ সম্পন্ন হবে। ৫ (পাঁচ)
+              মাসের প্রশিক্ষণ শেষে প্রশিক্ষণার্থীদের জন্য ০১ (এক) মাসব্যাপী
+              মেন্টরশিপ প্রোগ্রাম আয়োজন করা হবে।
+            </h3>
+            <!-- Project area start -->
+            <div class="bg-blue-100 my-5 p-3">
+              <h1 class="font-bold text-white bg-blue-950 px-3 w-full">
+                প্রকল্প উপজেলাসমূহ (১৩০)
+              </h1>
+              <p id="paragraph6" class="truncate-lines">
+                ফেনী সদর, সোনাগাজী, দাগনভূঞা, ব্রাহ্মণবাড়িয়া সদর, কসবা, নবীনগর,
+                চাঁদপুর সদর, মতলব দক্ষিণ, ফরিদগঞ্জ, লক্ষ্মীপুর সদর, রায়পুর,
+                রামগঞ্জ, কক্সবাজার সদর, চকরিয়া, রামু, খাগড়াছড়ি সদর, দিঘীনালা,
+                মাটিরাঙ্গা, বান্দরবান সদর, লামা, রোয়াংছড়ি, বেলকুচি, সিরাজগঞ্জ,
+                উল্লাপাড়া, নাটোর সদর, সিংড়া, বড়াইগ্রাম, আক্কেলপুর, পাঁচবিবি,
+                জয়পুরহাট সদর, চাঁপাইনবাবগঞ্জ সদর, গোমস্তাপুর, শিবগঞ্জ, কলারোয়া,
+                তালা, সাতক্ষীরা, মুজিবনগর, মেহেরপুর, গাংনী, নড়াইল সদর, লোহাগড়া,
+                কালিয়া, চুয়াডাঙ্গা সদর, আলমডাঙ্গা, দামুড়হুদা, শ্রীপুর, মাগুরা,
+                মহম্মদপুর, বাগেরহাট, মোড়েলগঞ্জ, মোংলা, ঝিনাইদহ সদর, শৈলকূপা,
+                কালীগঞ্জ, ঝালকাঠি সদর, নলছিটি, রাজাপুর, পিরোজপুর সদর, নাজিরপুর,
+                মঠবাড়ীয়া, ভোলা সদর, বোরহানউদ্দিন, চরফ্যাশন, আমতলী, বরগুনা সদর,
+                তালতলি, বড়লেখা, মৌলভীবাজার, শ্রীমঙ্গল, চুনারুঘাট, হবিগঞ্জ,
+                মাধবপুর, সুনামগঞ্জ সদর, দক্ষিণ সুনামগঞ্জ, ছাতক, নরসিংদী,
+                রায়পুরা, শিবপুর, কালীগঞ্জ, কাপাসিয়া, গাজীপুর, শরিয়তপুর সদর,
+                নড়িয়া, ডামুড্যা, আড়াইহাজার, নারায়নগঞ্জ, রূপগঞ্জ, ভৈরব,
+                কিশোরগঞ্জ, মিঠামইন, মানিকগঞ্জ, দৌলতপুর, সিংগাইর, মুন্সিগঞ্জ,
+                শ্রীনগর, গজারিয়া, রাজবাড়ী সদর, পাংশা, বালিয়াকান্দি, মাদারীপুর,
+                শিবচর, রাজৈর, গোপালগঞ্জ, টুংগীপাড়া, কোটালীপাড়া, পঞ্চগড় সদর,
+                দেবীগঞ্জ, বোদা, লালমনিরহাট, কালীগঞ্জ, আদিতমারী, সৈয়দপুর,
+                কিশোরগঞ্জ, নীলফামারী, সাদুল্লাপুর, গাইবান্ধা, গোবিন্দগঞ্জ,
+                ঠাকুরগাঁও, পীরগঞ্জ, রাণীশংকৈল, পীরগঞ্জ, কুড়িগ্রাম সদর, রাজারহাট,
+                উলিপুর, শেরপুর, নালিতাবাড়ী, শ্রীবরদী, কেন্দুয়া, পূর্বধলা,
+                নেত্রকোণা
+              </p>
+              <button id="moreBtn6" class="text-blue-500 underline mt-2">
+                More
+              </button>
+            </div>
+            <!-- Project area ends  -->
+            <div class="my-5 p-3 bg-gray-200">
+              <p class="">
+                <span class="font-bold text-white bg-blue-950 mr-3 px-3"
+                  >উদ্দেশ্য:</span
+                >টার্গেট গ্রুপকে কোর্স কারিকুলাম অনুযায়ী তথ্য-প্রযুক্তি ক্ষেত্রে
+                দক্ষ হিসেবে গড়ে তোলা এবং সঠিকভাবে পর্যবেক্ষণ ও মূল্যায়ন এর
+                মাধ্যমে নারী শিক্ষার্থীদেরকে লেভেলগুলোতে উত্তীর্ণ করা মাধ্যমে
+                তিনটি লেভেল সফলভাবে সুসম্পন্ন করা।
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-blue-100 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 px-3 w-full">
+                প্রশিক্ষণার্থী নির্বাচনের সংক্ষিপ্ত মানদণ্ড:
+              </h1>
+              <p>
+                <span class="font-bold"
+                  >প্রশিক্ষণার্থীদের ন্যুনতম শিক্ষাগত যোগ্যতাঃ</span
+                >ন্যূনতম এইচ.এস.সি. পাশ শিক্ষার্থী/ ফ্রিল্যান্সার/ উদ্যোক্তা/
+                বেকার গ্রামীণ নারী।
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণার্থীদের বয়সঃ</span>
+                ১৮-৪০ বছর
+              </p>
+              <p>
+                <span class="font-bold">অন্যান্য দক্ষতাঃ</span> আইসিটির মৌলিক
+                জ্ঞান, দ্রুত শেখার ক্ষমতা এবং উদ্যোক্তা হওয়ার মানসিকতা।
+              </p>
+
+              <p>
+                <span class="font-bold">নোটঃ</span>পাশাপাশি সুবিধাবঞ্চিত,
+                অনগ্রসরতা, দারিদ্রতা ও বিশেষ চাহিদা সম্পন্ন মেয়েদের অগ্রাধিকার
+                দেওয়া হবে।
+              </p>
+              <p>
+                <span class="font-bold text-red-500">সতর্কতাঃ</span> যারা
+                ইতঃপূর্বে এই ধরনের প্রশিক্ষণ গ্রহণ করেছেন তারা এই প্রশিক্ষণে
+                প্রশিক্ষণার্থী হিসাবে নির্বাচিত হওয়ার জন্য বিবেচিত হবেন না।
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-gray-200 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 mr-3 px-3">
+                প্রশিক্ষণের ক্যাটাগরি:
+              </h1>
+              <p>
+                <span class="font-bold">স্থান:</span> ভেন্ডর কোম্পানির নিজস্ব
+                ল্যাব অথবা স্থানীয় পর্যায়ের বিভিন্ন বেসরকারি ল্যাবসমূহ।
+              </p>
+              <p>
+                <span class="font-bold">স্থান:</span>অংশগ্রহণকারী: নারী
+                (ছাত্রী/ফ্রীল্যান্সার/এন্ট্রাপ্রেনিয়ার/পেশাজীবী/গ্রামীণ বেকার
+                নারী)
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণার্থী সংখ্যা:</span> ২০ জন
+                (ব্যাচ প্রতি)
+              </p>
+              <p>
+                <span class="font-bold">ব্যাচ সংখ্যা:</span> ৫২০ (১৩০ উপজেলা x
+                প্রতি উপজেলায় ৪ করে ব্যাচ)
+              </p>
+              <p>
+                <span class="font-bold">প্রশিক্ষণের ব্যাপ্তি:</span> ১১০ দিন ( ৫
+                মাস x ২২ দিন)
+              </p>
+              <p>
+                <span class="font-bold">প্রতিদিন সেশন:</span> ৪টি (১ ঘণ্টা করে)
+              </p>
+            </div>
+
+            <div class="my-5 p-3 bg-blue-100 space-y-2">
+              <h1 class="font-bold text-white bg-blue-950 mr-3 px-3">
+                কোর্স কারিকুলাম গুরুত্বপূর্ণ মডিউলঃ
+              </h1>
+              <p class="font-semibold mx-6 my-2">
+                Basic Concepts of Freelancing & Outsourcing , Basic ICT
+                knowledge, Computer & Internet Fundamentals, Computer Components
+                & Accessories, Computer Repairing and Maintain Security,
+                Troubleshooting, Computer Networking, Database Management,
+                Removal and Reinstallation of Common Components, Mobile
+                Servicing(Basic Electronics), Chip Level(Practical), Software
+                Repair, Networking & Marketing, Promotion & Distribution,
+                Strategy & Risk Management
+              </p>
+              <div class="mx-6">
+                <h1 class="text-xs font-semibold bg-blue-200 p-2">
+                  লেভেলভিত্তিক সম্পূর্ণ কোর্স কারিকুলামের ডাউনলোড লিঙ্কঃ
+                </h1>
+                <div class="grid grid-cols-3 space-x-3">
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-১</a
+                      >
+                    </h3>
+                  </div>
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-২</a
+                      >
+                    </h3>
+                  </div>
+                  <div class="flex justify-center items-center mt-1 mb-2">
+                    <h3 class="my-2">
+                      <a
+                        href="#"
+                        class="text-xs text-blue-500 underline hover:text-blue-700"
+                        >লেভেল-৩</a
+                      >
+                    </h3>
+                  </div>
+                </div>
+                <p class="text-center mt-4">
+                  <button>
+                    <a href="#" class="btn-single">Registration</a>
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card-6 description ends  -->
+        </div>
+      </section>
+      <!-- card description section ends  -->
+
+      <!-- Popup window items section starts  -->
+      <section class="flex ml-0 mr-0 bg-zinc-50 pb-3 flex-col">
+        <!-- Right side items starts  -->
+        <!-- Item-1(Joy sir) description starts  -->
+        <div
+          class="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-60 transition-opacity duration-300 ease-out hidden"
+          id="modal"
+        >
+          <div class="bg-white rounded p-4 w-3/4 max-h-96 overflow-y-auto">
+            <div class="">
+              <div
+                class="rounded-b-xl hover:ring-1 hover:ring-blue-800 w-full shadow-sm shadow-slate-400"
+              >
+                <!-- <h1 class="text-left font-extrabold">মাননীয় উপদেষ্টা</h1> -->
+                <div class="bg-blue-800 p-4 w-full">
+                  <h2 class="text-lg font-semibold text-center text-white">
+                    মাননীয় উপদেষ্টা
+                  </h2>
+                </div>
+                <div class="px-3 pb-2">
+                  <img
+                    class="bg-slate-400 h-36 w-36 mx-auto sm:flex-shrink-0 mt-5"
+                    src="http://www.doict.gov.bd/sites/default/files/files/doict.portal.gov.bd/office_head/fdd569ae_b24c_474b_ad59_e5048e24af16/last-pic-adviser.gif"
+                    alt="logo"
+                    class="w-full h-auto"
+                  />
+                  <div>
+                    <h2 class="mt-1 text-sm text-center">জনাব সজীব ওয়াজেদ</h2>
+                    <h2 class="mt-1 text-sm text-center">
+                      মাননীয় প্রধানমন্ত্রীর তথ্য ও যোগাযোগ প্রযুক্তি বিষয়ক
+                      মাননীয় উপদেষ্টা
+                    </h2>
+                  </div>
+                  <div class="mt-6 text-justify text-sm">
+                    <p class="">
+                      জনাব সজীব ওয়াজেদ তথ্য ও যোগাযোগ প্রযুক্তি বিশেষজ্ঞ এবং
+                      একজন রাজনৈতিক ব্যক্তিত্ব। তিনি গণপ্রজাতন্ত্রী বাংলাদেশ
+                      সরকারের মাননীয় প্রধানমন্ত্রী শেখ হাসিনা তনয় এবং বাংলাদেশের
+                      প্রথম রাষ্ট্র্রপতি ও হাজার বছরের শেষ্ঠ বাঙালি জাতির জনক
+                      বঙ্গবন্ধু শেখ মুজিবুর রহমানের জ্যেষ্ঠ দৌহিত্র। তিনি
+                      বাংলাদেশ আওয়ামী লীগের “ভিশন ২০২১” ইশতেহার প্রণয়নে মুখ্য
+                      ভূমিকা পালন করেন। বর্তমানে তিনি মাননীয় প্রধানমন্ত্রীর তথ্য
+                      ও যোগাযোগ প্রযুক্তি উপদেষ্টা হিসেবে কাজ করছেন।<br /><br />
+                      জনাব সজীব ওয়াজেদ যুক্তরাষ্ট্র্রের আর্লিংটনের টেক্সাস
+                      বিশ্ববিদ্যালয় থেকে কম্পিউটার ইঞ্জিনিয়ারিং এর ওপর ব্যাচেলর
+                      অব সায়েন্স ডিগ্রী অর্জন করেন। এরপর হাভার্ড বিশ্ববিদ্যালয়ের
+                      কেনেডি স্কুল অব গভর্নমেন্ট থেকে লোকপ্রশাসনের ওপর মাস্টার্স
+                      ডিগ্রী অর্জন করেন।<br /><br />
+
+                      তথ্য ও যোগাযোগ প্রযুক্তি ক্ষেত্রে অসামান্য অবদানের
+                      স্বীকৃতি স্বরুপ প্রথম বাংলাদেশী হিসেবে তিনি ২০০৭ সালে
+                      ডেভোসে অনুষ্ঠিত ওয়ার্ল্ড ইকোনমিক ফোরাম কর্তৃক বিশ্বের ২৫০
+                      জন তরুণ বিশ্ব নেতৃত্বের মধ্যে একজন হিসেবে নির্বাচিত হন।
+                      ২০০৯ সালের ২৫ ফেব্রুয়ারি জনাব সজীব ওয়াজেদ বাংলাদেশ আওয়ামী
+                      লীগ, রংপুর জেলা শাখা এর প্রাথমিক সদস্যপদ লাভ করেন।<br /><br />
+                      প্রাথমিক সদস্যপদ লাভের পর পরই জনাব সজীব ওয়াজেদ দেশে একটি
+                      শক্তিশালী আইটি ইন্ডাস্ট্রি গড়ে তোলা, ই-গভর্ন্যান্স
+                      প্রবর্তন ও বৃহৎ পরিসরে আইটি শিক্ষা চালুর মাধ্যমে সরকারের
+                      ডিজিটাল বাংলাদেশ প্রকল্প বাস্তবায়নে একটি বিশদ ধারণাপত্র ও
+                      কর্মপরিকল্পনা উপস্থাপন করেন। তিনি ডিজিটাল বাংলাদেশ
+                      বিনির্মাণে প্রধান কারিগর হিসেবে কাজ করছেন।
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Repeat the content as needed -->
+          </div>
+        </div>
+        <!-- Item-1(Joy sir) description ends  -->
+        <!-- Item-2(polok sir) description starts  -->
+        <div
+          class="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-60 transition-opacity duration-300 ease-out hidden"
+          id="polok"
+        >
+          <div class="bg-white rounded p-4 w-3/4 max-h-96 overflow-y-auto">
+            <div class="">
+              <div
+                class="rounded-b-xl hover:ring-1 hover:ring-blue-800 w-full shadow-sm shadow-slate-400"
+              >
+                <div class="bg-blue-800 p-4 w-full">
+                  <h2 class="text-lg font-semibold text-center text-white">
+                    মাননীয় প্রতিমন্ত্রী
+                  </h2>
+                </div>
+                <div class="px-3 pb-2">
+                  <img
+                    class="bg-slate-400 h-36 w-36 mx-auto sm:flex-shrink-0 mt-5"
+                    src="../images/polok-sir.jpg"
+                    alt="logo"
+                    class="w-full h-auto"
+                  />
+                  <div>
+                    <h2 class="mt-1 text-sm text-center">
+                      জনাব জুনাইদ আহ্‌মেদ পলক
+                    </h2>
+                    <h2 class="mt-1 text-sm text-center">
+                      জনাব জুনায়েদ আহ্‌মেদ পলক, এমপি, প্রতিমন্ত্রী, বাংলাদেশ
+                    </h2>
+                  </div>
+                  <div class="mt-6 text-justify text-sm">
+                    <div>
+                      <h1 class="text-md font-bold">পদে আসীনঃ</h1>
+                      <ul class="list-disc ml-8 space-y-1">
+                        <li>
+                          জানুয়ারী ২০১৪ সাল থেকে গণপ্রজাতন্ত্রী বাংলাদেশ সরকার
+                          এর তথ্য ও যোগাযোগ প্রযুক্তি প্রতিমন্ত্রী;
+                        </li>
+                        <li>
+                          ২০০৯ সালের জানুয়ারী থেকে সংসদ সদস্য (জাতীয় সংসদ);
+                        </li>
+                        <li>
+                          আইসিটি মন্ত্রনালয় সম্পর্কিত সংসদীয় স্থায়ী কমিটির
+                          সদস্য;
+                        </li>
+                        <li>
+                          ২০০৯ সাল থেকে বাংলাদেশ ক্যারাম ফেডারেশনের সভাপতি এবং
+                          ২০১১ সাল থেকে আন্তর্জাতিক ক্যারাম ফেডারেশনের সহ
+                          সভাপতি;
+                        </li>
+                        <li>
+                          ২০০৯ সাল থেকে ২০১৩ সাল পর্যন্ত জলবায়ু পরিবর্তন
+                          সম্পর্কিত সংসদীয় কমিটির সহ-সভাপতি।
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h1 class="text-md font-bold">অর্জনঃ</h1>
+                      <ul class="list-disc ml-8 space-y-1">
+                        <li>
+                          ওয়ার্ল্ড ইকোনমিক ফোরামের দ্বারা ২০১৬ সালে মনোনীত ইয়ং
+                          গ্লোবাল লিডার।
+                        </li>
+                        <li>
+                          তিনি ৩৩ বছর বয়সে বাংলাদেশের ইতিহাসে সর্বকনিষ্ঠ
+                          প্রতিমন্ত্রী হন। তার আমলে সারাদেশে ১৮,০০০ এরও বেশি
+                          সরকারী অফিসকে একটি ডেডিকেটেড হাই স্পিড ইন্টারনেটের
+                          আওতায় আনা হয়, ২৫,০০০ সরকারী ওয়েবসাইট নিয়ে বিশ্বের
+                          বৃহত্তম ওয়েব পোর্টাল প্রতিষ্ঠিত হয়, ITU এর টেকসই
+                          উন্নয়ন পুরস্কার, WSIS+ ১০ পুরস্কার এবং WITSA এর কাছ
+                          থেকে পাবলিক সার্ভিস এক্সিলেন্স অ্যাওয়ার্ড পেয়েছেন।
+                        </li>
+                        <li>
+                          ২৮ বছর বয়সে নির্বাচিত সংসদ সদস্য (এমপি) এবং নবম সংসদে
+                          কনিষ্ঠতম সংসদ সদস্য হন এবং ২০১৪ সালে পুনরায় নির্বাচিত
+                          হন। মন্ত্রী পলক সংসদে একটি জবাবদিহি মুলক সরকার করার
+                          জন্য খুব সক্রিয় রয়েছেন।
+                        </li>
+                        <li>
+                          ২০১০ সালে বড় পরিসরে বৃক্ষরোপণ আন্দোলনে তার ভূমিকার
+                          স্বীকৃতি স্বরূপ প্রধানমন্ত্রী জাতীয় পরিবেশ পুরষ্কার
+                          ২০১০ প্রদান করেন।
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="mt-6 text-justify text-sm">
+                    <div>
+                      <h1 class="text-md font-bold">পদে আসীনঃ</h1>
+                      <ul class="list-disc ml-8 space-y-1">
+                        <li>
+                          জানুয়ারী ২০১৪ সাল থেকে গণপ্রজাতন্ত্রী বাংলাদেশ সরকার
+                          এর তথ্য ও যোগাযোগ প্রযুক্তি প্রতিমন্ত্রী;
+                        </li>
+                        <li>
+                          ২০০৯ সালের জানুয়ারী থেকে সংসদ সদস্য (জাতীয় সংসদ);
+                        </li>
+                        <li>
+                          আইসিটি মন্ত্রনালয় সম্পর্কিত সংসদীয় স্থায়ী কমিটির
+                          সদস্য;
+                        </li>
+                        <li>
+                          ২০০৯ সাল থেকে বাংলাদেশ ক্যারাম ফেডারেশনের সভাপতি এবং
+                          ২০১১ সাল থেকে আন্তর্জাতিক ক্যারাম ফেডারেশনের সহ
+                          সভাপতি;
+                        </li>
+                        <li>
+                          ২০০৯ সাল থেকে ২০১৩ সাল পর্যন্ত জলবায়ু পরিবর্তন
+                          সম্পর্কিত সংসদীয় কমিটির সহ-সভাপতি।
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h1 class="text-md font-bold">শিক্ষাঃ</h1>
+                      <ul class="list-disc ml-8 space-y-1">
+                        <li>
+                          বাংলাদেশের জাতীয় বিশ্ববিদ্যালয় থেকে রাষ্ট্রবিজ্ঞানে
+                          স্নাতকোত্তর এবং এলএলবি (স্নাতকোত্তর) ডিগ্রি অর্জন
+                          করেছেন।
+                        </li>
+                        <li>
+                          জাতীয় ডিফেন্স কলেজ থেকে ক্যাপস্টোন কোর্স সম্পন্ন
+                          করেছেন।
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h1 class="text-md font-bold">পেশাঃ</h1>
+                      <ul class="list-disc ml-8 space-y-1">
+                        <li>
+                          মন্ত্রী পলক পেশায় আইনজীবী এবং বাংলাদেশের সুপ্রীম
+                          কোর্টে অ্যাডভোকেট হিসাবে তালিকাভুক্ত।
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h1 class="text-md font-bold">
+                        সামাজিক মিডিয়া উপস্থিতিঃ
+                      </h1>
+                      <ul class="list-disc ml-8 space-y-1">
+                        <li>
+                          ফেসবুক: https://facebook.com/zapalak (ফেসবুকে দুই
+                          মিলিয়নেরও বেশি অনুরাগী রয়েছে)
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Repeat the content as needed -->
+          </div>
+        </div>
+        <!-- Item-2(polok sir) description ends  -->
+        <!-- Item-3(secretary sir) description starts  -->
+        <div
+          class="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-60 transition-opacity duration-300 ease-out hidden"
+          id="modal"
+        >
+          <div class="bg-white rounded p-4 w-3/4 max-h-96 overflow-y-auto">
+            <div class="">
+              <div
+                class="rounded-b-xl hover:ring-1 hover:ring-blue-800 w-full shadow-sm shadow-slate-400"
+              >
+                <!-- <h1 class="text-left font-extrabold">মাননীয় উপদেষ্টা</h1> -->
+                <div class="bg-blue-800 p-4 w-full">
+                  <h2 class="text-lg font-semibold text-center text-white">
+                    মাননীয় উপদেষ্টা
+                  </h2>
+                </div>
+                <div class="px-3 pb-2">
+                  <img
+                    class="bg-slate-400 h-36 w-36 mx-auto sm:flex-shrink-0 mt-5"
+                    src="http://www.doict.gov.bd/sites/default/files/files/doict.portal.gov.bd/office_head/fdd569ae_b24c_474b_ad59_e5048e24af16/last-pic-adviser.gif"
+                    alt="logo"
+                    class="w-full h-auto"
+                  />
+                  <div>
+                    <h2 class="mt-1 text-sm text-center">জনাব সজীব ওয়াজেদ</h2>
+                    <h2 class="mt-1 text-sm text-center">
+                      মাননীয় প্রধানমন্ত্রীর তথ্য ও যোগাযোগ প্রযুক্তি বিষয়ক
+                      মাননীয় উপদেষ্টা
+                    </h2>
+                  </div>
+                  <div class="mt-6 text-justify text-sm">
+                    <p class="">
+                      জনাব সজীব ওয়াজেদ তথ্য ও যোগাযোগ প্রযুক্তি বিশেষজ্ঞ এবং
+                      একজন রাজনৈতিক ব্যক্তিত্ব। তিনি গণপ্রজাতন্ত্রী বাংলাদেশ
+                      সরকারের মাননীয় প্রধানমন্ত্রী শেখ হাসিনা তনয় এবং বাংলাদেশের
+                      প্রথম রাষ্ট্র্রপতি ও হাজার বছরের শেষ্ঠ বাঙালি জাতির জনক
+                      বঙ্গবন্ধু শেখ মুজিবুর রহমানের জ্যেষ্ঠ দৌহিত্র। তিনি
+                      বাংলাদেশ আওয়ামী লীগের “ভিশন ২০২১” ইশতেহার প্রণয়নে মুখ্য
+                      ভূমিকা পালন করেন। বর্তমানে তিনি মাননীয় প্রধানমন্ত্রীর তথ্য
+                      ও যোগাযোগ প্রযুক্তি উপদেষ্টা হিসেবে কাজ করছেন।<br /><br />
+                      জনাব সজীব ওয়াজেদ যুক্তরাষ্ট্র্রের আর্লিংটনের টেক্সাস
+                      বিশ্ববিদ্যালয় থেকে কম্পিউটার ইঞ্জিনিয়ারিং এর ওপর ব্যাচেলর
+                      অব সায়েন্স ডিগ্রী অর্জন করেন। এরপর হাভার্ড বিশ্ববিদ্যালয়ের
+                      কেনেডি স্কুল অব গভর্নমেন্ট থেকে লোকপ্রশাসনের ওপর মাস্টার্স
+                      ডিগ্রী অর্জন করেন।<br /><br />
+
+                      তথ্য ও যোগাযোগ প্রযুক্তি ক্ষেত্রে অসামান্য অবদানের
+                      স্বীকৃতি স্বরুপ প্রথম বাংলাদেশী হিসেবে তিনি ২০০৭ সালে
+                      ডেভোসে অনুষ্ঠিত ওয়ার্ল্ড ইকোনমিক ফোরাম কর্তৃক বিশ্বের ২৫০
+                      জন তরুণ বিশ্ব নেতৃত্বের মধ্যে একজন হিসেবে নির্বাচিত হন।
+                      ২০০৯ সালের ২৫ ফেব্রুয়ারি জনাব সজীব ওয়াজেদ বাংলাদেশ আওয়ামী
+                      লীগ, রংপুর জেলা শাখা এর প্রাথমিক সদস্যপদ লাভ করেন।<br /><br />
+                      প্রাথমিক সদস্যপদ লাভের পর পরই জনাব সজীব ওয়াজেদ দেশে একটি
+                      শক্তিশালী আইটি ইন্ডাস্ট্রি গড়ে তোলা, ই-গভর্ন্যান্স
+                      প্রবর্তন ও বৃহৎ পরিসরে আইটি শিক্ষা চালুর মাধ্যমে সরকারের
+                      ডিজিটাল বাংলাদেশ প্রকল্প বাস্তবায়নে একটি বিশদ ধারণাপত্র ও
+                      কর্মপরিকল্পনা উপস্থাপন করেন। তিনি ডিজিটাল বাংলাদেশ
+                      বিনির্মাণে প্রধান কারিগর হিসেবে কাজ করছেন।
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Repeat the content as needed -->
+          </div>
+        </div>
+        <!-- Item-3(secretary sir) description ends  -->
+        <!-- Item-4(DG sir) description starts  -->
+        <div
+          class="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-60 transition-opacity duration-300 ease-out hidden"
+          id="modal"
+        >
+          <div class="bg-white rounded p-4 w-3/4 max-h-96 overflow-y-auto">
+            <div class="">
+              <div
+                class="rounded-b-xl hover:ring-1 hover:ring-blue-800 w-full shadow-sm shadow-slate-400"
+              >
+                <!-- <h1 class="text-left font-extrabold">মাননীয় উপদেষ্টা</h1> -->
+                <div class="bg-blue-800 p-4 w-full">
+                  <h2 class="text-lg font-semibold text-center text-white">
+                    মাননীয় উপদেষ্টা
+                  </h2>
+                </div>
+                <div class="px-3 pb-2">
+                  <img
+                    class="bg-slate-400 h-36 w-36 mx-auto sm:flex-shrink-0 mt-5"
+                    src="http://www.doict.gov.bd/sites/default/files/files/doict.portal.gov.bd/office_head/fdd569ae_b24c_474b_ad59_e5048e24af16/last-pic-adviser.gif"
+                    alt="logo"
+                    class="w-full h-auto"
+                  />
+                  <div>
+                    <h2 class="mt-1 text-sm text-center">জনাব সজীব ওয়াজেদ</h2>
+                    <h2 class="mt-1 text-sm text-center">
+                      মাননীয় প্রধানমন্ত্রীর তথ্য ও যোগাযোগ প্রযুক্তি বিষয়ক
+                      মাননীয় উপদেষ্টা
+                    </h2>
+                  </div>
+                  <div class="mt-6 text-justify text-sm">
+                    <p class="">
+                      জনাব সজীব ওয়াজেদ তথ্য ও যোগাযোগ প্রযুক্তি বিশেষজ্ঞ এবং
+                      একজন রাজনৈতিক ব্যক্তিত্ব। তিনি গণপ্রজাতন্ত্রী বাংলাদেশ
+                      সরকারের মাননীয় প্রধানমন্ত্রী শেখ হাসিনা তনয় এবং বাংলাদেশের
+                      প্রথম রাষ্ট্র্রপতি ও হাজার বছরের শেষ্ঠ বাঙালি জাতির জনক
+                      বঙ্গবন্ধু শেখ মুজিবুর রহমানের জ্যেষ্ঠ দৌহিত্র। তিনি
+                      বাংলাদেশ আওয়ামী লীগের “ভিশন ২০২১” ইশতেহার প্রণয়নে মুখ্য
+                      ভূমিকা পালন করেন। বর্তমানে তিনি মাননীয় প্রধানমন্ত্রীর তথ্য
+                      ও যোগাযোগ প্রযুক্তি উপদেষ্টা হিসেবে কাজ করছেন।<br /><br />
+                      জনাব সজীব ওয়াজেদ যুক্তরাষ্ট্র্রের আর্লিংটনের টেক্সাস
+                      বিশ্ববিদ্যালয় থেকে কম্পিউটার ইঞ্জিনিয়ারিং এর ওপর ব্যাচেলর
+                      অব সায়েন্স ডিগ্রী অর্জন করেন। এরপর হাভার্ড বিশ্ববিদ্যালয়ের
+                      কেনেডি স্কুল অব গভর্নমেন্ট থেকে লোকপ্রশাসনের ওপর মাস্টার্স
+                      ডিগ্রী অর্জন করেন।<br /><br />
+
+                      তথ্য ও যোগাযোগ প্রযুক্তি ক্ষেত্রে অসামান্য অবদানের
+                      স্বীকৃতি স্বরুপ প্রথম বাংলাদেশী হিসেবে তিনি ২০০৭ সালে
+                      ডেভোসে অনুষ্ঠিত ওয়ার্ল্ড ইকোনমিক ফোরাম কর্তৃক বিশ্বের ২৫০
+                      জন তরুণ বিশ্ব নেতৃত্বের মধ্যে একজন হিসেবে নির্বাচিত হন।
+                      ২০০৯ সালের ২৫ ফেব্রুয়ারি জনাব সজীব ওয়াজেদ বাংলাদেশ আওয়ামী
+                      লীগ, রংপুর জেলা শাখা এর প্রাথমিক সদস্যপদ লাভ করেন।<br /><br />
+                      প্রাথমিক সদস্যপদ লাভের পর পরই জনাব সজীব ওয়াজেদ দেশে একটি
+                      শক্তিশালী আইটি ইন্ডাস্ট্রি গড়ে তোলা, ই-গভর্ন্যান্স
+                      প্রবর্তন ও বৃহৎ পরিসরে আইটি শিক্ষা চালুর মাধ্যমে সরকারের
+                      ডিজিটাল বাংলাদেশ প্রকল্প বাস্তবায়নে একটি বিশদ ধারণাপত্র ও
+                      কর্মপরিকল্পনা উপস্থাপন করেন। তিনি ডিজিটাল বাংলাদেশ
+                      বিনির্মাণে প্রধান কারিগর হিসেবে কাজ করছেন।
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Repeat the content as needed -->
+          </div>
+        </div>
+        <!-- Item-4(DG sir) description ends  -->
+        <!-- Item-5(PD sir) description starts  -->
+        <div
+          class="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-60 transition-opacity duration-300 ease-out hidden"
+          id="modal"
+        >
+          <div class="bg-white rounded p-4 w-3/4 max-h-96 overflow-y-auto">
+            <div class="">
+              <div
+                class="rounded-b-xl hover:ring-1 hover:ring-blue-800 w-full shadow-sm shadow-slate-400"
+              >
+                <!-- <h1 class="text-left font-extrabold">মাননীয় উপদেষ্টা</h1> -->
+                <div class="bg-blue-800 p-4 w-full">
+                  <h2 class="text-lg font-semibold text-center text-white">
+                    মাননীয় উপদেষ্টা
+                  </h2>
+                </div>
+                <div class="px-3 pb-2">
+                  <img
+                    class="bg-slate-400 h-36 w-36 mx-auto sm:flex-shrink-0 mt-5"
+                    src="http://www.doict.gov.bd/sites/default/files/files/doict.portal.gov.bd/office_head/fdd569ae_b24c_474b_ad59_e5048e24af16/last-pic-adviser.gif"
+                    alt="logo"
+                    class="w-full h-auto"
+                  />
+                  <div>
+                    <h2 class="mt-1 text-sm text-center">জনাব সজীব ওয়াজেদ</h2>
+                    <h2 class="mt-1 text-sm text-center">
+                      মাননীয় প্রধানমন্ত্রীর তথ্য ও যোগাযোগ প্রযুক্তি বিষয়ক
+                      মাননীয় উপদেষ্টা
+                    </h2>
+                  </div>
+                  <div class="mt-6 text-justify text-sm">
+                    <p class="">
+                      জনাব সজীব ওয়াজেদ তথ্য ও যোগাযোগ প্রযুক্তি বিশেষজ্ঞ এবং
+                      একজন রাজনৈতিক ব্যক্তিত্ব। তিনি গণপ্রজাতন্ত্রী বাংলাদেশ
+                      সরকারের মাননীয় প্রধানমন্ত্রী শেখ হাসিনা তনয় এবং বাংলাদেশের
+                      প্রথম রাষ্ট্র্রপতি ও হাজার বছরের শেষ্ঠ বাঙালি জাতির জনক
+                      বঙ্গবন্ধু শেখ মুজিবুর রহমানের জ্যেষ্ঠ দৌহিত্র। তিনি
+                      বাংলাদেশ আওয়ামী লীগের “ভিশন ২০২১” ইশতেহার প্রণয়নে মুখ্য
+                      ভূমিকা পালন করেন। বর্তমানে তিনি মাননীয় প্রধানমন্ত্রীর তথ্য
+                      ও যোগাযোগ প্রযুক্তি উপদেষ্টা হিসেবে কাজ করছেন।<br /><br />
+                      জনাব সজীব ওয়াজেদ যুক্তরাষ্ট্র্রের আর্লিংটনের টেক্সাস
+                      বিশ্ববিদ্যালয় থেকে কম্পিউটার ইঞ্জিনিয়ারিং এর ওপর ব্যাচেলর
+                      অব সায়েন্স ডিগ্রী অর্জন করেন। এরপর হাভার্ড বিশ্ববিদ্যালয়ের
+                      কেনেডি স্কুল অব গভর্নমেন্ট থেকে লোকপ্রশাসনের ওপর মাস্টার্স
+                      ডিগ্রী অর্জন করেন।<br /><br />
+
+                      তথ্য ও যোগাযোগ প্রযুক্তি ক্ষেত্রে অসামান্য অবদানের
+                      স্বীকৃতি স্বরুপ প্রথম বাংলাদেশী হিসেবে তিনি ২০০৭ সালে
+                      ডেভোসে অনুষ্ঠিত ওয়ার্ল্ড ইকোনমিক ফোরাম কর্তৃক বিশ্বের ২৫০
+                      জন তরুণ বিশ্ব নেতৃত্বের মধ্যে একজন হিসেবে নির্বাচিত হন।
+                      ২০০৯ সালের ২৫ ফেব্রুয়ারি জনাব সজীব ওয়াজেদ বাংলাদেশ আওয়ামী
+                      লীগ, রংপুর জেলা শাখা এর প্রাথমিক সদস্যপদ লাভ করেন।<br /><br />
+                      প্রাথমিক সদস্যপদ লাভের পর পরই জনাব সজীব ওয়াজেদ দেশে একটি
+                      শক্তিশালী আইটি ইন্ডাস্ট্রি গড়ে তোলা, ই-গভর্ন্যান্স
+                      প্রবর্তন ও বৃহৎ পরিসরে আইটি শিক্ষা চালুর মাধ্যমে সরকারের
+                      ডিজিটাল বাংলাদেশ প্রকল্প বাস্তবায়নে একটি বিশদ ধারণাপত্র ও
+                      কর্মপরিকল্পনা উপস্থাপন করেন। তিনি ডিজিটাল বাংলাদেশ
+                      বিনির্মাণে প্রধান কারিগর হিসেবে কাজ করছেন।
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Repeat the content as needed -->
+          </div>
+        </div>
+        <!-- Item-5(PD sir) description ends  -->
+        <!-- Right side items ends  -->
+
+        <!-- zilla list starts  -->
+        <div
+          class="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-60 transition-opacity duration-300 ease-out hidden"
+          id="zilla-modal"
+        >
+          <div class="bg-white rounded p-4 w-2/4 max-h-96 overflow-y-auto">
+            <div class="">
+              <div
+                class="rounded-b-xl hover:ring-1 hover:ring-blue-800 w-full shadow-sm shadow-slate-400"
+              >
+                <div class="bg-blue-800 p-4 w-full">
+                  <h2 class="text-lg font-semibold text-center text-white">
+                    অন্তর্ভুক্ত জেলাসমূহ (৪৩)
+                  </h2>
+                </div>
+                <div class="px-3 pb-2">
+                  <div class="mt-6 text-justify text-lg">
+                    <p class="font-bold">
+                      নরসিংদী, গাজীপুর, শরীয়তপুর, নারায়ণগঞ্জ, কিশোরগঞ্জ,
+                      মানিকগঞ্জ, মুন্সিগঞ্জ, রাজবাড়ী, মাদারীপুর, গোপালগঞ্জ,
+                      ফেনী, ব্রাহ্মণবাড়িয়া, চাঁদপুর, লক্ষ্মীপুর, কক্সবাজার,
+                      খাগড়াছড়ি, বান্দরবান, সিরাজগঞ্জ, নাটোর, জয়পুরহাট,
+                      চাঁপাইনবাবগঞ্জ, সাতক্ষীরা, মেহেরপুর, নড়াইল, চুয়াডাঙ্গা,
+                      মাগুরা, বাগেরহাট, ঝিনাইদহ, ঝালকাঠি, পিরোজপুর, ভোলা,
+                      বরগুনা, মৌলভীবাজার, হবিগঞ্জ, সুনামগঞ্জ, পঞ্চগড়,
+                      লালমনিরহাট, নীলফামারী, গাইবান্ধা, ঠাকুরগাঁও, রংপুর,
+                      কুড়িগ্রাম, শেরপুর, নেত্রকোণা
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Repeat the content as needed -->
+          </div>
+        </div>
+        <!-- zilla list ends  -->
+        <!-- Upazilla list starts  -->
+        <div
+          class="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-60 transition-opacity duration-300 ease-out hidden"
+          id="upazilla-modal"
+        >
+          <div class="bg-white rounded p-4 w-2/4 max-h-96 overflow-y-auto">
+            <div class="">
+              <div
+                class="rounded-b-xl hover:ring-1 hover:ring-blue-800 w-full shadow-sm shadow-slate-400"
+              >
+                <div class="bg-blue-800 p-4 w-full">
+                  <h2 class="text-lg font-semibold text-center text-white">
+                    অন্তর্ভুক্ত উপজেলাসমূহ (১৩০)
+                  </h2>
+                </div>
+                <div class="px-3 pb-2">
+                  <div class="mt-6 text-justify text-lg">
+                    <p class="font-bold">
+                      ফেনী সদর, সোনাগাজী, দাগনভূঞা, ব্রাহ্মণবাড়িয়া সদর, কসবা,
+                      নবীনগর, চাঁদপুর সদর, মতলব দক্ষিণ, ফরিদগঞ্জ, লক্ষ্মীপুর
+                      সদর, রায়পুর, রামগঞ্জ, কক্সবাজার সদর, চকরিয়া, রামু,
+                      খাগড়াছড়ি সদর, দিঘীনালা, মাটিরাঙ্গা, বান্দরবান সদর, লামা,
+                      রোয়াংছড়ি, বেলকুচি, সিরাজগঞ্জ, উল্লাপাড়া, নাটোর সদর,
+                      সিংড়া, বড়াইগ্রাম, আক্কেলপুর, পাঁচবিবি, জয়পুরহাট সদর,
+                      চাঁপাইনবাবগঞ্জ সদর, গোমস্তাপুর, শিবগঞ্জ, কলারোয়া, তালা,
+                      সাতক্ষীরা, মুজিবনগর, মেহেরপুর, গাংনী, নড়াইল সদর, লোহাগড়া,
+                      কালিয়া, চুয়াডাঙ্গা সদর, আলমডাঙ্গা, দামুড়হুদা, শ্রীপুর,
+                      মাগুরা, মহম্মদপুর, বাগেরহাট, মোড়েলগঞ্জ, মোংলা, ঝিনাইদহ
+                      সদর, শৈলকূপা, কালীগঞ্জ, ঝালকাঠি সদর, নলছিটি, রাজাপুর,
+                      পিরোজপুর সদর, নাজিরপুর, মঠবাড়ীয়া, ভোলা সদর, বোরহানউদ্দিন,
+                      চরফ্যাশন, আমতলী, বরগুনা সদর, তালতলি, বড়লেখা, মৌলভীবাজার,
+                      শ্রীমঙ্গল, চুনারুঘাট, হবিগঞ্জ, মাধবপুর, সুনামগঞ্জ সদর,
+                      দক্ষিণ সুনামগঞ্জ, ছাতক, নরসিংদী, রায়পুরা, শিবপুর,
+                      কালীগঞ্জ, কাপাসিয়া, গাজীপুর, শরিয়তপুর সদর, নড়িয়া,
+                      ডামুড্যা, আড়াইহাজার, নারায়নগঞ্জ, রূপগঞ্জ, ভৈরব,
+                      কিশোরগঞ্জ, মিঠামইন, মানিকগঞ্জ, দৌলতপুর, সিংগাইর,
+                      মুন্সিগঞ্জ, শ্রীনগর, গজারিয়া, রাজবাড়ী সদর, পাংশা,
+                      বালিয়াকান্দি, মাদারীপুর, শিবচর, রাজৈর, গোপালগঞ্জ,
+                      টুংগীপাড়া, কোটালীপাড়া, পঞ্চগড় সদর, দেবীগঞ্জ, বোদা,
+                      লালমনিরহাট, কালীগঞ্জ, আদিতমারী, সৈয়দপুর, কিশোরগঞ্জ,
+                      নীলফামারী, সাদুল্লাপুর, গাইবান্ধা, গোবিন্দগঞ্জ, ঠাকুরগাঁও,
+                      পীরগঞ্জ, রাণীশংকৈল, পীরগঞ্জ, কুড়িগ্রাম সদর, রাজারহাট,
+                      উলিপুর, শেরপুর, নালিতাবাড়ী, শ্রীবরদী, কেন্দুয়া, পূর্বধলা,
+                      নেত্রকোণা ।
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Repeat the content as needed -->
+          </div>
+        </div>
+        <!-- Upazilla list ends  -->
+      </section>
+      <!-- Popup window items section ends  -->
+
+      <!-- Contact section starts -->
+      <section
+        id="contact"
+        class="scroll-mt-24 max-w-screen-lg mx-auto px-4 md:px-8 lg:px-16"
+      >
+        <h1
+          class="py-6 text-center text-2xl font-extrabold text-white bg-purple-300 shadow-md"
+        >
+          CONTACT
+        </h1>
+        <div
+          class="flex flex-col sm:flex-row justify-center pl-1% py-1% bg-purple-200"
+        >
+          <div
+            class="gap-y-10 sm:w-3/12 border-r-2 border-slate-600 px-2% py-1% flex flex-col justify-center items-center"
+          >
+            <!-- mail font-awesome -->
+            <div
+              class="-mt-16 mb-8 rounded-b-lg hover:ring-1 hover:ring-orange-100 shadow-lg transform hover:scale-105 duration-500"
+            >
+              <a target="_blank" href="mailto:herpowerproject@doict.gov.bd">
+                <i
+                  class="px-4 py-1 fas fa-envelope fa-3x text-orange-500 cursor-pointer"
+                ></i>
+              </a>
+            </div>
+            <!-- Facebook font-awesome -->
+            <div
+              class="-mt-10 rounded-b-lg hover:ring-1 hover:ring-orange-100 shadow-lg transform hover:scale-105 duration-500"
+            >
+              <a target="_blank" href="http://www.facebook.com/herpowerproject">
+                <i
+                  class="px-6 py-1 fab fa-facebook-f fa-3x text-blue-700 cursor-pointer"
+                ></i>
+              </a>
+            </div>
+          </div>
+          <div class="md:w-9/12 p-1%">
+            <div class="relative w-full h-96 shadow-md">
+              <iframe
+                class="absolute top-0 left-0 w-full h-full"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.121448006717!2d90.36979232501565!3d23.778689228651096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1465ed89915%3A0x4e7ec920e7b783ea!2z4Kac4Ka-4Kak4KeA4KefIOCmrOCmv-CmnOCnjeCmnuCmvuCmqCDgppMg4Kaq4KeN4Kaw4Kav4KeB4KaV4KeN4Kak4Ka_IOCmleCmruCmquCnjeCmsuCnh-CmleCnjeCmuCAtIE5hdGlvbmFsIFNjaWVuY2UgYW5kIFRlY2hub2xvZ3kgQ29tcGxleA!5e0!3m2!1sen!2sbd!4v1686724253513!5m2!1sen!2sbd"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact section ends -->
+
+      <!-- Footer starts here -->
+
+      <section class="max-w-screen-lg mx-auto px-4 md:px-8 lg:px-16">
+        <footer
+          class="flex flex-col justify-center items-center bg-slate-400 p-6 h-64 text-center"
+        >
+          <div class="border-b-2 pb-6 border-slate-600">
+            <img
+              class="h-36 w-96 ring-4 ring-white"
+              src="../images/her-power-logo.jpg"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div class="text-lg font-bold text-white pt-3">
+            &copy;2023 Her Power Project. All Rights Reserved. Privacy Policy
+          </div>
+        </footer>
+      </section>
+
+      <!-- Footer ends here -->
+
+      <!-- bottom on click  -->
+      <button
+        class="fixed bottom-10 right-10 cursor-pointer items-center"
+        style="display: inline"
+        type="button"
+      >
+        <svg
+          stroke="currentColor"
+          fill="currentColor"
+          stroke-width="0"
+          viewBox="0 0 16 16"
+          class="text-violet-500 dark:text-secondary1"
+          height="20"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"
+          ></path>
+        </svg>
+      </button>
+    </section>

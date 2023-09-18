@@ -1,0 +1,493 @@
+<header
+        class="fixed top-0 z-10 w-full shadow-lg right-0 left-0 text-white bg-gradient-to-r from-purple-400 from-10% via-green-400 via-20% to-pink-400 to-100%"
+      >
+        <nav
+          class="relative flex justify-between items-center max-w-screen-lg mx-auto px-4 md:px-8 lg:px-16"
+        >
+          <div class="flex justify-center items-center">
+            <div class="logo-div">
+              <img
+                class="w-36 h-20 py-1 cursor-pointer animate-spin-slow"
+                src="../images/logo-only.png"
+                alt="..."
+              />
+            </div>
+            <div class="flex flex-col ml-5">
+              <h1 class="text-2xl font-extrabold text-purple-900">
+                হার পাওয়ার প্রকল্প
+              </h1>
+              <p class="font-bold text-purple-900">
+                প্রযুক্তির সহায়তায় নারীর ক্ষমতায়ন
+              </p>
+            </div>
+          </div>
+          <div
+            class="nav-links duration-700 sm:static absolute sm:z-auto sm:min-h-fit min-h-[60vh] right-0 top-[-100%] sm::w-auto opacity-0 sm:opacity-100"
+          >
+            <ul
+              class="md:text-xl md:font-extrabold text-sm font-bold flex sm:flex-row flex-col sm:items-center gap-y-10"
+            >
+              <li>
+                <a
+                  class="px-3 py-1 hover:text-white hover:bg-green-300 border-slate-200 border-l-2 text-center text-purple-900"
+                  href="#"
+                  >HOME</a
+                >
+              </li>
+              <li>
+                <a
+                  class="px-3 py-1 hover:text-white hover:bg-green-300 border-slate-200 border-l-2 text-center text-purple-900"
+                  href="#courses"
+                  >COURSES</a
+                >
+              </li>
+              <li>
+                <a
+                  class="px-3 py-1 hover:text-white hover:bg-green-300 border-slate-200 border-l-2 text-center text-purple-900"
+                  href="#her-power"
+                  >ABOUT</a
+                >
+              </li>
+              <li>
+                <a
+                  class="px-3 py-1 hover:text-white hover:bg-green-300 text-center border-l-2 text-purple-900"
+                  href="#contact"
+                  >CONTACT</a
+                >
+              </li>
+              <!-- <li>
+                <a class="hover:text-gray-500" href="#">XYZ</a>
+              </li> -->
+            </ul>
+          </div>
+          <div class="flex items-center gap-6 sm:hidden">
+            <ion-icon
+              onclick="onToggleMenu(this)"
+              name="menu"
+              class="text-3xl cursor-pointer sm:hidden"
+            ></ion-icon>
+          </div>
+        </nav>
+      </header>
+      <!-- default slider starts here -->
+      <section class="default-slider hidden lg:block">
+        <div
+          id="default-carousel"
+          class="relative top-20 max-w-screen-lg mx-auto px-4 md:px-8 lg:px-16"
+          data-carousel="slide"
+        >
+          <!-- Carousel wrapper -->
+          <div
+            class="overflow-hidden rounded-lg flex justify-center items-center h-fit"
+          >
+            <!-- Item 1 -->
+            <div
+              class="hidden duration-700 ease-in-out h-[512px] h-[512px] w-full bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center lg:px-24"
+              data-carousel-item
+              style="background-image: url('../images/carousel-hpp.svg')"
+            >
+              <h1
+                class="text-6xl font-extrabold text-purple-600 text-center mt-4 opacity-100 -mt-8"
+              >
+                হার পাওয়ার প্রকল্প
+              </h1>
+              <h3
+                class="text-3xl font-extrabold text-purple-500 text-center my-4"
+              >
+                প্রযুক্তির সহায়তায় নারীর ক্ষমতায়ন
+              </h3>
+              <h3
+                class="text-xl font-extrabold text-purple-500 text-center mt-4"
+              >
+                <span class="text-red-400">উদ্দেশ্য: </span>তথ্য-প্রযুক্তির
+                সর্বোত্তম নিরাপদ ব্যবহার করে দক্ষতা বৃদ্ধির মাধ্যমে নারীদের
+                আত্মকর্মসংস্থানের ব্যবস্থা ও উদ্যোক্তা হিসাবে তাদের টেকসই
+                ক্ষমতায়ন নিশ্চিত করা।
+              </h3>
+            </div>
+            <!-- Item 2: call center agent -->
+            <div
+              class="h-[512px] w-full hidden duration-700 ease-in-out bg-fit bg-center bg-no-repeat"
+              data-carousel-item
+              style="
+                background-image: url('../images/carousel-call-center.svg');
+              "
+            >
+              <div class="flex flex-col justify-center items-center">
+                <div class="mt-4">
+                  <h1
+                    class="text-5xl font-extrabold text-purple-500 text-center"
+                  >
+                    Women <span class="text-pink-400">Call Centre</span> Agent
+                  </h1>
+                </div>
+                <div
+                  class="grid grid-cols-2 mt-16 gap-x-32 gap-y-16 justify-center items-center opacity-80"
+                >
+                  <!-- Box 1 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">৬৪ জেলা</h2>
+                    <p class="mt-2 font-bold">প্রকল্প জেলাসমূহ</p>
+                  </div>
+                  <!-- Box 2 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">১৪৭ উপজেলা</h2>
+                    <p class="mt-2 font-bold">প্রকল্প উপজেলাসমূহ</p>
+                  </div>
+                  <!-- Box 3 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">৫ মাসব্যাপী</h2>
+                    <p class="mt-2 font-bold">প্রশিক্ষণ প্রোগ্রাম</p>
+                  </div>
+                  <!-- Box 4 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">১ মাসব্যাপী</h2>
+                    <p class="mt-2 font-bold">মেন্টরশিপ প্রোগ্রাম</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 3: Women E-Commerce Professional -->
+            <div
+              class="h-[512px] w-full hidden duration-700 ease-in-out bg-fit bg-center bg-no-repeat"
+              data-carousel-item
+              style="background-image: url('../images/carousel-ecommerce.svg')"
+            >
+              <div class="flex flex-col justify-center items-center">
+                <div class="mt-4">
+                  <h1
+                    class="text-5xl font-extrabold text-purple-500 text-center"
+                  >
+                    Women
+                    <span class="text-pink-400">E-Commerce </span>Professional
+                  </h1>
+                </div>
+                <div
+                  class="grid grid-cols-2 mt-16 gap-x-32 gap-y-16 justify-center items-center opacity-80"
+                >
+                  <!-- Box 1 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">৬৪ জেলা</h2>
+                    <p class="mt-2 font-bold">প্রকল্প জেলাসমূহ</p>
+                  </div>
+                  <!-- Box 2 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">১৪৭ উপজেলা</h2>
+                    <p class="mt-2 font-bold">প্রকল্প উপজেলাসমূহ</p>
+                  </div>
+                  <!-- Box 3 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">৫ মাসব্যাপী</h2>
+                    <p class="mt-2 font-bold">প্রশিক্ষণ প্রোগ্রাম</p>
+                  </div>
+                  <!-- Box 4 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">১ মাসব্যাপী</h2>
+                    <p class="mt-2 font-bold">মেন্টরশিপ প্রোগ্রাম</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Item 4: Women IT Service Provider -->
+            <div
+              class="h-[512px] w-full hidden duration-700 ease-in-out bg-fit bg-center bg-no-repeat"
+              data-carousel-item
+              style="background-image: url('../images/carousel-it-service.svg')"
+            >
+              <div class="flex flex-col justify-center items-center">
+                <div class="mt-4">
+                  <h1
+                    class="text-5xl font-extrabold text-purple-500 text-center"
+                  >
+                    Women
+                    <span class="text-pink-400">IT Service </span>Provider
+                  </h1>
+                </div>
+                <div
+                  class="grid grid-cols-2 mt-16 gap-x-32 gap-y-16 justify-center items-center opacity-80"
+                >
+                  <!-- Box 1 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">৬৪ জেলা</h2>
+                    <p class="mt-2 font-bold">প্রকল্প জেলাসমূহ</p>
+                  </div>
+                  <!-- Box 2 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">১৪৭ উপজেলা</h2>
+                    <p class="mt-2 font-bold">প্রকল্প উপজেলাসমূহ</p>
+                  </div>
+                  <!-- Box 3 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">৫ মাসব্যাপী</h2>
+                    <p class="mt-2 font-bold">প্রশিক্ষণ প্রোগ্রাম</p>
+                  </div>
+                  <!-- Box 4 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">১ মাসব্যাপী</h2>
+                    <p class="mt-2 font-bold">মেন্টরশিপ প্রোগ্রাম</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slider indicators -->
+            <!-- Item 5: graphics design -->
+            <div
+              class="h-[512px] w-full hidden duration-700 ease-in-out bg-fit bg-center bg-no-repeat"
+              data-carousel-item
+              style="background-image: url('../images/carousel-graphic.svg')"
+            >
+              <div class="flex flex-col justify-center items-center">
+                <div class="mt-4">
+                  <h1
+                    class="text-5xl font-extrabold text-purple-500 text-center"
+                  >
+                    <span class="text-pink-400">Graphics </span>Design
+                  </h1>
+                </div>
+                <div
+                  class="grid grid-cols-2 mt-16 gap-x-32 gap-y-16 justify-center items-center opacity-80"
+                >
+                  <!-- Box 1 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">৬৪ জেলা</h2>
+                    <p class="mt-2 font-bold">প্রকল্প জেলাসমূহ</p>
+                  </div>
+                  <!-- Box 2 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">১৪৭ উপজেলা</h2>
+                    <p class="mt-2 font-bold">প্রকল্প উপজেলাসমূহ</p>
+                  </div>
+                  <!-- Box 3 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">৫ মাসব্যাপী</h2>
+                    <p class="mt-2 font-bold">প্রশিক্ষণ প্রোগ্রাম</p>
+                  </div>
+                  <!-- Box 4 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">১ মাসব্যাপী</h2>
+                    <p class="mt-2 font-bold">মেন্টরশিপ প্রোগ্রাম</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Item 6: Web dev -->
+            <div
+              class="h-[512px] w-full hidden duration-700 ease-in-out bg-fit bg-center bg-no-repeat"
+              data-carousel-item
+              style="background-image: url('../images/carousel-web.svg')"
+            >
+              <div class="flex flex-col justify-center items-center">
+                <div class="mt-4">
+                  <h1
+                    class="text-5xl font-extrabold text-purple-500 text-center"
+                  >
+                    <span class="text-pink-400">Web </span>Development
+                  </h1>
+                </div>
+                <div
+                  class="grid grid-cols-2 mt-16 gap-x-32 gap-y-16 justify-center items-center opacity-80"
+                >
+                  <!-- Box 1 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">৬৪ জেলা</h2>
+                    <p class="mt-2 font-bold">প্রকল্প জেলাসমূহ</p>
+                  </div>
+                  <!-- Box 2 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">১৪৭ উপজেলা</h2>
+                    <p class="mt-2 font-bold">প্রকল্প উপজেলাসমূহ</p>
+                  </div>
+                  <!-- Box 3 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">৫ মাসব্যাপী</h2>
+                    <p class="mt-2 font-bold">প্রশিক্ষণ প্রোগ্রাম</p>
+                  </div>
+                  <!-- Box 4 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">১ মাসব্যাপী</h2>
+                    <p class="mt-2 font-bold">মেন্টরশিপ প্রোগ্রাম</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Item 7: Digital marketing -->
+            <div
+              class="h-[512px] w-full hidden duration-700 ease-in-out bg-fit bg-center bg-no-repeat"
+              data-carousel-item
+              style="
+                background-image: url('../images/carousel-digital-marketing.svg');
+              "
+            >
+              <div class="flex flex-col justify-center items-center">
+                <div class="mt-4">
+                  <h1
+                    class="text-5xl font-extrabold text-purple-500 text-center"
+                  >
+                    <span class="text-pink-400">Digital </span>Marketing
+                  </h1>
+                </div>
+                <div
+                  class="grid grid-cols-2 mt-16 gap-x-32 gap-y-16 justify-center items-center opacity-80"
+                >
+                  <!-- Box 1 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">৬৪ জেলা</h2>
+                    <p class="mt-2 font-bold">প্রকল্প জেলাসমূহ</p>
+                  </div>
+                  <!-- Box 2 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">১৪৭ উপজেলা</h2>
+                    <p class="mt-2 font-bold">প্রকল্প উপজেলাসমূহ</p>
+                  </div>
+                  <!-- Box 3 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">৫ মাসব্যাপী</h2>
+                    <p class="mt-2 font-bold">প্রশিক্ষণ প্রোগ্রাম</p>
+                  </div>
+                  <!-- Box 4 -->
+                  <div
+                    class="max-w-[160px] overflow-hidden p-4 text-center text-green-600 bg-gradient-to-r from-purple-200 to-pink-200 shadow-lg rounded-lg"
+                  >
+                    <h2 class="text-xl font-extrabold">১ মাসব্যাপী</h2>
+                    <p class="mt-2 font-bold">মেন্টরশিপ প্রোগ্রাম</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slider indicators -->
+            <div
+              class="absolute z-20 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2"
+            >
+              <button
+                type="button"
+                class="w-3 h-3 rounded-full"
+                aria-current="true"
+                aria-label="Slide 1"
+                data-carousel-slide-to="0"
+              ></button>
+              <button
+                type="button"
+                class="w-3 h-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 2"
+                data-carousel-slide-to="1"
+              ></button>
+              <button
+                type="button"
+                class="w-3 h-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 3"
+                data-carousel-slide-to="2"
+              ></button>
+              <button
+                type="button"
+                class="w-3 h-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 4"
+                data-carousel-slide-to="3"
+              ></button>
+            </div>
+            <!-- Slider controls -->
+            <button
+              type="button"
+              class="absolute top-0 left-0 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="absolute top-0 right-0 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- default slider ends here -->

@@ -1,0 +1,45 @@
+<!-- Button -->
+<button id="openModalButton" class="py-2 px-4 bg-blue-500 text-white rounded">Open Modal</button>
+
+<!-- The modal -->
+<div id="myModal" class="modal">
+  <div class="modal-content bg-white p-4 rounded shadow-md w-1/2 mx-auto mt-20">
+    <span class="close absolute top-0 right-0 p-2 cursor-pointer">&times;</span>
+    <p>This is the modal content.</p>
+  </div>
+</div>
+
+<!-- Open the modal using ID.showModal() method -->
+<button class="btn" onclick="my_modal_2.showModal()">open modal</button>
+<dialog id="my_modal_2" class="modal">
+  <form method="dialog" class="modal-box">
+    <h3 class="font-bold text-lg">Hello!</h3>
+    <p class="py-4">Press ESC key or click outside to close</p>
+  </form>
+  <form method="dialog" class="modal-backdrop">
+    <button>close</button>
+  </form>
+</dialog>
+
+SELL200
+
+
+<div class="my-4 bg-white">
+            <p class="text-2xl">Have a coupon?</p>
+            <div class="flex">
+              <input
+                class="border border-gray-300 rounded-l-md py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                type="text"
+                name=""
+                id="coupon-input-field"
+                placeholder="Coupon code"
+              />
+              <button
+                id="apply-coupon-btn"
+                disabled
+                class="btn bg-pink-500 -ml-0.5 inline"
+              >
+                Apply
+              </button>
+            </div>
+          </div>
